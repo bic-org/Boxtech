@@ -65,7 +65,7 @@ The following chapters describe how to use the API :
 
 1. [AUTHENTICATION](../../wiki/Authentication)
 
-2. [TARE_KG, TARE_LBS](../../wiki/Tare) : how to call these entry points
+2. [TARE_KG, TARE_LBS](../../wiki/Tare-Weight) : how to call these entry points
 
 3. [ERRORS](../../wiki/Errors) : details about error codes and messages
 
