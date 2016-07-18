@@ -39,7 +39,7 @@ Remember that, from time to time, you may need to approve new Terms and Conditio
 ### **Clientid**
 
 You will use the following value for **clientid** in your tests and in your app :
-- for production and sandbox, *clientid* = YmljYXBwOmJpY3NlY3JldGFwcA==
+- for production and sandbox, **clientid** is YmljYXBwOmJpY3NlY3JldGFwcA==
 
 ### Endpoint
 
