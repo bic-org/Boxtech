@@ -68,3 +68,14 @@ The following chapters describe how to use the API :
 2. [TARE_KG, TARE_LBS](../../wiki/Tare) : how to call these entry points
 
 3. [ERRORS](../../wiki/Errors) : details about error codes and messages
+
+
+## Manual Tests with a REST Client
+
+We have added a step-by-step description of manual tests we suggest you run with Postman, a REST Client application :
+- sign up for a sandbox user for data access only
+- authenticate with this user to get a token
+- call the tare_kg service with this token to look up the tare weight of a container
+- repeat the operation in production
+
+More details [in this guide](./ManualTests/ManualTests.mdown)
