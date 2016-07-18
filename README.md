@@ -6,6 +6,7 @@ The BIC TCD Technical Characteristics Database (see [the website](http://www.bic
 * [TCD API](#api)
 * [Prerequisites](#prerequisites)
 * [Detailed samples](#samples)
+* [Manual Tests with a REST Client](#manualtests)
 
 
 ## Repository <a id="repository"></a>
@@ -37,9 +38,8 @@ Remember that, from time to time, you may need to approve new Terms and Conditio
 
 ### **Clientid**
 
-You can use the TCD REST API in Production, on real data, or in a Sandbox, on test data.
-- for production, *clientid* = YmljYXBwOmJpY3NlY3JldGFwcA==
-- for sandbox, *clientid* = yyy
+You will use the following value for **clientid** in your tests and in your app :
+- for production and sandbox, **clientid** is YmljYXBwOmJpY3NlY3JldGFwcA==
 
 ### Endpoint
 
@@ -68,3 +68,14 @@ The following chapters describe how to use the API :
 2. [TARE_KG, TARE_LBS](../../wiki/Tare) : how to call these entry points
 
 3. [ERRORS](../../wiki/Errors) : details about error codes and messages
+
+
+## Manual Tests with a REST Client <a id="manualtests"></a>
+
+We have added a step-by-step description of manual tests we suggest you run with Postman, a REST Client application :
+- sign up for a sandbox user for data access only
+- authenticate with this user to get a token
+- call the tare_kg service with this token to look up the tare weight of a container
+- repeat the operation in production
+
+More details [in this guide](./ManualTests/ManualTests.mdown)
