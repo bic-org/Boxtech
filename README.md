@@ -6,6 +6,7 @@ The BIC TCD Technical Characteristics Database (see [the website](http://www.bic
 * [TCD API](#api)
 * [Prerequisites](#prerequisites)
 * [Detailed samples](#samples)
+* [Manual Tests with a REST Client](#manualtests)
 
 
 ## Repository <a id="repository"></a>
@@ -70,7 +71,7 @@ The following chapters describe how to use the API :
 3. [ERRORS](../../wiki/Errors) : details about error codes and messages
 
 
-## Manual Tests with a REST Client
+## Manual Tests with a REST Client <a id="manualtests"></a>
 
 We have added a step-by-step description of manual tests we suggest you run with Postman, a REST Client application :
 - sign up for a sandbox user for data access only
