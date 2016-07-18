@@ -24,6 +24,7 @@ Configure the TCD API Authentification call :
 - add 2 headers in the Headers section :
 + key = Content-Type, value = application/x-www-form-urlencoded
 + key = Authorization, value = Basic YmljYXBwOmJpY3NlY3JldGFwcA==
+Note : the value of the Authorization key is called the <clientid\>
 ![AUthentication headers](./images/02_Auth_Headers.png)
 
 Move to the Body section :

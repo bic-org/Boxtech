@@ -38,9 +38,8 @@ Remember that, from time to time, you may need to approve new Terms and Conditio
 
 ### **Clientid**
 
-You can use the TCD REST API in Production, on real data, or in a Sandbox, on test data.
-- for production, *clientid* = YmljYXBwOmJpY3NlY3JldGFwcA==
-- for sandbox, *clientid* = yyy
+You will use the following value for **clientid** in your tests and in your app :
+- for production and sandbox, *clientid* = YmljYXBwOmJpY3NlY3JldGFwcA==
 
 ### Endpoint
 
