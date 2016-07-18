@@ -33,7 +33,7 @@ To use the TCD API, you will need the following :
 
 ### **Username** and **Password**
 You will be given these once you have signed up on the TCD app : see [BIC TCD website](http://www.bic-boxtech.org)
-Remember that, from time to time, you may need to approve new Terms and Conditions : to do this, simply log in manually into the app : see [the FAQ](http://www.bic-boxtech.org/faq)
+Remember that, from time to time, you may need to approve new Terms and Conditions : to do this, simply log in manually into the app : see [the FAQ](http://www.bic-boxtech.org/faqs)
 
 ### **Clientid**
 
