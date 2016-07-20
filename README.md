@@ -18,14 +18,16 @@ This repository contains samples for calling the TCD REST API. These API samples
 
 The TCD API is a simple REST API.
 
-The following entry points are available, for looking up tare information in the TCD :
-- **tare_kg**  : for a given container number, provides the tare in kg
-- **tare_lbs** : for a given container number, provides the tare in lbs
+The following entry points are available, for looking up container tare weight in the TCD :
+- **tare_kg**  : for a given container number, provides the tare weight in kg
+- **tare_lbs** : for a given container number, provides the tare weight in lbs
 
 The following entry points are planned, but not yet available, for updating the TCD :
 - **fleet_in** : declare a new container in my fleet
 - **fleet_out** : declare that a container has left my fleet
 - **fleet_replace** : upload a file with the whole contents of my fleet, replacing the existing contents
+
+The container tare weight API is being made available first, because this is the most urgent.  An API allowing the download of a fuller set of container characteristics will eventually be added.
 
 
 ## Prerequisites <a id="prerequisites"></a>
@@ -79,3 +81,14 @@ We have added a step-by-step description of manual tests we suggest you run with
 - repeat the operation in production
 
 More details [in this guide](./ManualTests/ManualTests.mdown)
+
+
+## Feedback and Support
+
+We invite you to add your comments about the Tare Weight API service here as comments on this GitHub issue :
+	https://github.com/bic-boxtech/BIC-TCD-API-Samples/issues/1
+	
+If you have other problems or questions, we invite you to enter them here as a new issue :
+	https://github.com/bic-boxtech/BIC-TCD-API-Samples/issues/new
+
+** Please do not look for support by email - response time on GitHub will be much faster **
