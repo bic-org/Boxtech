@@ -18,9 +18,11 @@ This repository contains samples for calling the TCD REST API. These API samples
 
 The TCD API is a simple REST API.
 
-The following entry points are available, for looking up container tare weight in the TCD :
+The following entry points are available, for looking up container tare weight and max gross mass in the TCD :
 - **tare_kg**  : for a given container number, provides the tare weight in kg
 - **tare_lbs** : for a given container number, provides the tare weight in lbs
+- **max_gross_mass_kg**  : for a given container number, provides the max gross mass in kg
+- **max_gross_mass_lbs** : for a given container number, provides the max gross mass in lbs
 
 The following entry points are planned, but not yet available, for updating the TCD :
 - **fleet_in** : declare a new container in my fleet
