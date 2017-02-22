@@ -1,8 +1,8 @@
 # MANUAL TESTS
 
-The easiest way to test the TCD API is to do it manually, using a REST Client such as Postman (see http://www.getpostman.com) which can be run in your browser or on your desktop.
+The easiest way to test the BoxTech API is to do it manually, using a REST Client such as Postman (see http://www.getpostman.com) which can be run in your browser or on your desktop.
 
-## Signup in the TCD sandbox
+## Signup in the BoxTech sandbox
 
 Point your web browser at http://test-bic-container.herokuapp.com and signup for a new user account.
 Signup "for Data Access only". Accept Terms and Conditions. Confirm your account activation by clicking the link received by email.
@@ -18,7 +18,7 @@ Create a (free account) to save your tests for future reference.
 Now you are in, create a 'New Tab' at the top of the screen
 ![New tab in Postman](./images/01_New_Tab.png)
 
-Configure the TCD API Authentification call :
+Configure the BoxTech API Authentification call :
 - select the POST operation
 - use the http://test-bic-container.herokuapp.com/oauth/token URL
 - add 2 headers in the Headers section :
@@ -33,7 +33,7 @@ Move to the Body section :
 + key = grant_type, value = password
 + key = username, value = <your_username\>
 + key = paswsword, value = <your_password\>
-- save your work by clicking Save on the right, and store it in a collection you will call BIC TCD
+- save your work by clicking Save on the right, and store it in a collection you will call BIC TCD (BoxTech)
 ![Authentication body](./images/03_Auth_Body.png)
 
 Click Send : you should get a response which looks like this :
@@ -45,7 +45,7 @@ Grab the "accessToken" value, in our case : 784b64f338a812343915c6f4734d2f71fe14
 
 In Postman, create a new tab at the top of the screen.
 
-Configure the TCD API Tare_kg call :
+Configure the BoxTech API Tare_kg call :
 - select the GET operation
 - use the http://test-bic-container.herokuapp.com/api/tare_kg/GLDU5334260 URL : this will query for the GLDU5334260 container. Note the format of the container number which includes the check digit
 - add 1 header in the Headers section :
@@ -64,7 +64,7 @@ You can practise on your own creating a new test in a new tab to call the tare_l
 
 ## Same tests in Production
 
-To run the same tests in the BIC TCD Production database :
+To run the same tests in the BIC BoxTech Production database :
 - signup for a "Data access only" user in production. Accept Terms and Conditions. Confirm your account activation by clicking the link received by email. You now have a production <username\> and <password\> you can use in the API in production
 - use the http://app.bic-boxtech.org/oauth/token URL for authentication in production
 - use the http://app.bic-boxtech.org/api/tare_kg URL for the Tare (kg) service in production
