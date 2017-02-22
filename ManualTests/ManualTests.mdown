@@ -33,7 +33,7 @@ Move to the Body section :
 + key = grant_type, value = password
 + key = username, value = <your_username\>
 + key = paswsword, value = <your_password\>
-- save your work by clicking Save on the right, and store it in a collection you will call BIC TCD (BoxTech)
+- save your work by clicking Save on the right, and store it in a collection you will call BIC BoxTech
 ![Authentication body](./images/03_Auth_Body.png)
 
 Click Send : you should get a response which looks like this :
