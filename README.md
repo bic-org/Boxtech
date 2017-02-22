@@ -1,6 +1,6 @@
 # INTRODUCTION
 
-The BIC BoxTech Technical Characteristics Database (see [the website](http://www.bic-boxtech.org)) has as reference API which is described below. Other API entry points may be implemented on request.
+The BIC BoxTech Containers Database (see [the website](http://www.bic-boxtech.org)) has a reference API which is described below. Other API entry points may be implemented on request.
 
 * [Repository](#repository)
 * [BoxTech API](#api)
@@ -95,9 +95,9 @@ More details [in this guide](./ManualTests/ManualTests.mdown)
 ## Feedback and Support
 
 We invite you to add your comments about the Tare Weight API service here as comments on this GitHub issue :
-	https://github.com/bic-boxtech/BIC-TCD-API-Samples/issues/1
+	https://github.com/bic-boxtech/BIC-BoxTech-API-Samples/issues/1
 	
 If you have other problems or questions, we invite you to enter them here as a new issue :
-	https://github.com/bic-boxtech/BIC-TCD-API-Samples/issues/new
+	https://github.com/bic-boxtech/BIC-BoxTech-API-Samples/issues/new
 
 ** Please do not look for support by email - response time on GitHub will be much faster **
