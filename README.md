@@ -1,9 +1,9 @@
 # INTRODUCTION
 
-The BIC TCD Technical Characteristics Database (see [the website](http://www.bic-boxtech.org)) has as reference API which is described below. Other API entry points may be implemented on request.
+The BIC BoxTech Containers Database (see [the website](http://www.bic-boxtech.org)) has a reference API which is described below. Other API entry points may be implemented on request.
 
 * [Repository](#repository)
-* [TCD API](#api)
+* [BoxTech API](#api)
 * [Prerequisites](#prerequisites)
 * [Detailed samples](#samples)
 * [Manual Tests with a REST Client](#manualtests)
@@ -11,29 +11,40 @@ The BIC TCD Technical Characteristics Database (see [the website](http://www.bic
 
 ## Repository <a id="repository"></a>
 
-This repository contains samples for calling the TCD REST API. These API samples are open source. Other samples may be contributed by you or others to the GitHub repository : please fork and suggest your pull requests.
+This repository contains samples for calling the BoxTech REST API. These API samples are open source. Other samples may be contributed by you or others to the GitHub repository : please fork and suggest your pull requests.
 
 
-## TCD API <a id="api"></a>
+## BoxTech API <a id="api"></a>
 
-The TCD API is a simple REST API.
+The BoxTech API is a simple REST API.
 
-The following entry points are available, for looking up tare information in the TCD :
-- **tare_kg**  : for a given container number, provides the tare in kg
-- **tare_lbs** : for a given container number, provides the tare in lbs
+The following entry points are available, for looking up container tare weight and max gross mass in the BoxTech database :
 
-The following entry points are planned, but not yet available, for updating the TCD :
+When you ask for a data :
+
+You will receive the **raw** data if it is available in the requested unit.
+
+You will receive the **converted** data if it is available in another unit.
+
+- **tare_kg**  : for a given container number, provides the tare weight in kg
+- **tare_lbs** : for a given container number, provides the tare weight in lbs
+- **max_gross_mass_kg**  : for a given container number, provides the max gross mass in kg
+- **max_gross_mass_lbs** : for a given container number, provides the max gross mass in lbs
+
+The following entry points are planned, but not yet available, for updating the BoxTech database :
 - **fleet_in** : declare a new container in my fleet
 - **fleet_out** : declare that a container has left my fleet
 - **fleet_replace** : upload a file with the whole contents of my fleet, replacing the existing contents
 
+The container tare weight API is being made available first, because this is the most urgent.  An API allowing the download of a fuller set of container characteristics will eventually be added.
+
 
 ## Prerequisites <a id="prerequisites"></a>
 
-To use the TCD API, you will need the following :
+To use the BoxTech API, you will need the following :
 
 ### **Username** and **Password**
-You will be given these once you have signed up on the TCD app : see [BIC TCD website](http://www.bic-boxtech.org)
+You will be given these once you have signed up on the BoxTech app : see [BIC BoxTech website](http://www.bic-boxtech.org)
 Remember that, from time to time, you may need to approve new Terms and Conditions : to do this, simply log in manually into the app : see [the FAQ](http://www.bic-boxtech.org/faqs)
 
 ### **Clientid**
@@ -43,7 +54,7 @@ You will use the following value for **clientid** in your tests and in your app 
 
 ### Endpoint
 
-The endpoint for the TCD REST API is :
+The endpoint for the BoxTech REST API is :
 - for Production : app.bic-boxtech.org/api
 - for Sandbox : test-bic-container.herokuapp.com/api
 
@@ -79,3 +90,14 @@ We have added a step-by-step description of manual tests we suggest you run with
 - repeat the operation in production
 
 More details [in this guide](./ManualTests/ManualTests.mdown)
+
+
+## Feedback and Support
+
+We invite you to add your comments about the Tare Weight API service here as comments on this GitHub issue :
+	https://github.com/bic-boxtech/BIC-BoxTech-API-Samples/issues/1
+	
+If you have other problems or questions, we invite you to enter them here as a new issue :
+	https://github.com/bic-boxtech/BIC-BoxTech-API-Samples/issues/new
+
+** Please do not look for support by email - response time on GitHub will be much faster **
