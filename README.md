@@ -18,25 +18,9 @@ This repository contains samples for calling the BoxTech REST API. These API sam
 
 The BoxTech API is a simple REST API.
 
-The following entry points are available, for looking up container tare weight and max gross mass in the BoxTech database :
+you can find its specification [over here.](./Ressources/index.html)
 
-When you ask for a data :
 
-You will receive the **raw** data if it is available in the requested unit.
-
-You will receive the **converted** data if it is available in another unit.
-
-- **tare_kg**  : for a given container number, provides the tare weight in kg
-- **tare_lbs** : for a given container number, provides the tare weight in lbs
-- **max_gross_mass_kg**  : for a given container number, provides the max gross mass in kg
-- **max_gross_mass_lbs** : for a given container number, provides the max gross mass in lbs
-
-The following entry points are planned, but not yet available, for updating the BoxTech database :
-- **fleet_in** : declare a new container in my fleet
-- **fleet_out** : declare that a container has left my fleet
-- **fleet_replace** : upload a file with the whole contents of my fleet, replacing the existing contents
-
-The container tare weight API is being made available first, because this is the most urgent.  An API allowing the download of a fuller set of container characteristics will eventually be added.
 
 
 ## Prerequisites <a id="prerequisites"></a>
