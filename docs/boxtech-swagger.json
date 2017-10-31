@@ -9,7 +9,7 @@
       "email": "boxtech-admin@bic-boxtech.org"
     }
   },
-  "host": "box-tech-uat.herokuapp.com",
+  "host": "https://bic-tcd.herokuapp.com",
   "externalDocs": {
     "description": "Find out more about Swagger",
     "url": "http://swagger.io"
@@ -21,7 +21,7 @@
       "description": "container operations",
       "externalDocs": {
         "description": "Find out more",
-        "url": "https://www.bic-boxtech.org/faqs/"
+        "url": "https://github.com/bic-boxtech/BIC-BoxTech-API-Samples"
       }
     }
   ],
@@ -257,7 +257,7 @@
   "securityDefinitions": {
     "boxtech_auth": {
       "type": "oauth2",
-      "tokenUrl": "https://bic-boxtech-staging.herokuapp.com/oauth/token",
+      "tokenUrl": "https://bic-tcd.herokuapp.com/oauth/token",
       "flow": "password",
       "scopes": {
         "profile": "based on user profile"
