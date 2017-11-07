@@ -47,7 +47,7 @@ In Postman, create a new tab at the top of the screen.
 
 Configure the BoxTech API get container call :
 - select the GET operation
-- use the http://test-bic-container.herokuapp.com/api/v2.0/GLDU5334260 URL : this will query for the GLDU5334260 container. Note the format of the container number which includes the check digit
+- use the http://test-bic-container.herokuapp.com/api/v2.0/container/GLDU5334260 URL : this will query for the GLDU5334260 container. Note the format of the container number which includes the check digit
 - add 1 header in the Headers section :
 + key = Authorization, value = Bearer 784b64f338a812343915c6f4734d2f71fe14a68d (or in your case, Bearer followed by the <accessToken\> you saved previously, separated by a blank space)
 - save your work which should look like this :
