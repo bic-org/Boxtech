@@ -18,7 +18,7 @@ This repository contains samples for calling the BoxTech REST API. These API sam
 
 The BoxTech API is a simple REST API.
 
-you can find its specification [over here.](https://altiusservices.github.io/BIC-BoxTech-API-Samples/index.html)
+you can find its specification [over here.](https://bic-boxtech.github.io/BIC-Boxtech-API-documentation/index.html)
 
 
 
