@@ -39,8 +39,8 @@ You will use the following value for **clientid** in your tests and in your app 
 ### Endpoint
 
 The endpoint for the BoxTech REST API is :
-- for Production : https://app.bic-boxtech.org/api
-- for Sandbox : https://test-bic-container.herokuapp.com/api
+- for Production : https://app.bic-boxtech.org/api/v2.0
+- for Sandbox : https://test-bic-container.herokuapp.com/api/v2.0
 
 ### Container number
 
