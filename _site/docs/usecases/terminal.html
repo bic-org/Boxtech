@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=">
+
+  </head>
+
+  <body>
+
+        <!-- HEADER -->
+        <div id="header_wrap" class="outer">
+            <header class="inner">
+              
+
+              <h1 id="project_title">BIC Boxtech API</h1>
+              <h2 id="project_tagline">Technical details for the global container fleet</h2>
+
+              
+            </header>
+        </div>
+
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3 id="terminal-process">Terminal Process</h3>
+
+<p>BoxTech allows shippers, carriers, terminals, depots, and other supply chain participants to instantly obtain technical information about containers, such as tare weight, size/type and maximum gross mass.</p>
+
+<p>BoxTech means a one-stop-shop to obtain container max weights for your automated safety checks within a terminal.</p>
+
+<p>To obtain the max weight weight for a given containers</p>
+
+<p><strong>Query the API</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://app.bic-boxtech.org/api/v2.0/container/GLDU5334260
+</code></pre></div></div>
+
+<p><em>Note: You will need to provide the bearer in the header as described in the <a href="">guide</a> with your token</em></p>
+
+<p><strong>Examine the Results</strong></p>
+
+<p>Look for the <code class="highlighter-rouge">tare_kg</code> in the json response, you can now use this value in your SOLAS VGM method 2 calculations.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+       "uploaderaccountname": "TOUAX",
+       "bic_code": "GLDU",
+       "prefix": "GLD",
+       "equipment_identifier": "U",
+       "serial_number": "533426",
+       "check_digit": "0",
+       "group_st": "20DC",
+       "detail_st": null,
+       "tare_kg": 2230,
+       "tare_lbs": 4920,
+       "max_payload_kg": 30480,
+       "max_payload_lbs": 67200,
+       "max_gross_mass_kg": 28250,
+       "max_gross_mass_lbs": 62280,
+       "cubic_capacity_cbm": 33,
+       "cubic_capacity_cuft": 1170,
+       "stacking_kg": 216000,
+       "stacking_lbs": 476190,
+       "racking_kg": null,
+       "racking_lbs": null,
+       "racking_n": null,
+       "one_door_off_stacking_kg": null,
+       "one_door_off_stacking_lbs": null,
+       "one_door_off_racking_kg": null,
+       "one_door_off_racking_lbs": null,
+       "one_door_off_racking_n": null,
+       "one_door_off_end_wall_strength_kg": null,
+       "one_door_off_end_wall_strength_lbs": null,
+       "manufacture_number": null,
+       "manufacture_date": "2008-03-27T00:00:00.000Z",
+       "manufacturer": "CIMCDCMCDALIAN",
+       "customs_approval": null,
+       "customs_approval_type": null,
+       "csc_approval": null,
+       "timber_treatment_approval": null,
+       "external_length_mm": null,
+       "external_width_mm": null,
+       "external_height_mm": null,
+       "internal_length_mm": null,
+       "internal_width_mm": null,
+       "internal_height_mm": null,
+       "door_opening_width_mm": null,
+       "door_opening_height_mm": null,
+       "codeholder": "TOUAX",
+       "container_number": "GLDU5334260",
+       "checkDigitwarning": false,
+       "external_length_ft": null,
+       "internal_length_ft": null,
+       "external_width_ft": null,
+       "internal_width_ft": null,
+       "external_height_ft": null,
+       "internal_height_ft": null,
+       "door_opening_width_ft": null,
+       "door_opening_height_ft": null
+   }
+</code></pre></div></div>
+
+
+        <!--Navigation-->
+        <nav class="nav-primary" role="navigation" >
+    <ul>
+        
+        <li>
+        	<a  href="/readme.html">BIC Boxtech Global Container Database</a>
+        </li>
+        
+        <li>
+        	<a  href="/assets/css/style.css"></a>
+        </li>
+        
+        <li>
+        	<a  href="/assets/style.css"></a>
+        </li>
+        
+        <li>
+        	<a class="active" href="/docs/usecases/terminal.html">Terminal Operations</a>
+        </li>
+        
+        <li>
+        	<a  href="/docs/usecases/vgm.html">SOLAS VGM</a>
+        </li>
+        
+    </ul>
+</nav>
+
+        
+
+      </section>
+    </div>
+
+<!-- FOOTER  -->
+<div id="footer_wrap" class="outer">
+  <footer class="inner">
+    
+    <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+  </footer>
+</div>
+
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'Your Google Analytics tracking ID', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</body>
+</html>
+

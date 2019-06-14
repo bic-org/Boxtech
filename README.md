@@ -1,103 +1,30 @@
-# INTRODUCTION
+---
+layout: default
+title: BIC Boxtech Global Container Database
+---
 
-The BIC BoxTech Containers Database (see [the website](http://www.bic-boxtech.org)) has a reference API which is described below. Other API entry points may be implemented on request.
+# Introduction
 
-* [Repository](#repository)
-* [BoxTech API](#api)
-* [Prerequisites](#prerequisites)
-* [Detailed samples](#samples)
-* [Manual Tests with a REST Client](#manualtests)
+The Bureau International des Containers et du Transport Intermodal (BIC) provide Boxtech to support digitalization in the container industry as a free to use digital resource, that can be accessed through an API.
 
+There are some sample use cases detailed to help understand how you may use some of the information available.  Boxtech data is provided with support from the shipping lines, lease companies and other container operators, giving more detail than is available on the container door and identifying the current operator for the container in the case of lease containers.  Full details can be found on [the website](http://www.bic-boxtech.org)
 
-## Repository <a id="repository"></a>
+BIC are a non-profit organisation serving the container transportation industry.
 
-This repository contains samples for calling the BoxTech REST API. These API samples are open source. Other samples may be contributed by you or others to the GitHub repository : please fork and suggest your pull requests.
+## How to get started with Boxtech
 
+To start using the Boxtech API you will need to request an API key, the key is free and the only condition of use is that you accept our terms and conditions.
 
-## BoxTech API <a id="api"></a>
+To request an API key please follow the signup process on [the website](https://www.bic-boxtech.org/sign-up/) and click the link that is sent to activate your account.
 
-The BoxTech API is a simple REST API.
+Now you can request a token to start calling the API, the instructions to do this are [here](...)
 
-The following entry points are available, for looking up container tare weight and max gross mass in the BoxTech database :
+Your now good to go and start using the Boxtech API.  Some other useful resources can be found:
+* [Using Postman to query the API](https://github.com/bic-boxtech/BIC-BoxTech-API-Samples/blob/master/ManualTests/ManualTests.mdown)
+* [API specification](https://bic-boxtech.github.io/BIC-Boxtech-API-documentation/index.html)
 
-When you ask for a data :
+## Need Help?
 
-You will receive the **raw** data if it is available in the requested unit.
+The API is really easy to query and use, but if you do have questions or would like to suggest some improvements we would really appreciate you taking the time to raise a [Github issue](https://github.com/bic-boxtech/BIC-BoxTech-API-Samples/issues/) and we will respond accordingly.
 
-You will receive the **converted** data if it is available in another unit.
-
-- **tare_kg**  : for a given container number, provides the tare weight in kg
-- **tare_lbs** : for a given container number, provides the tare weight in lbs
-- **max_gross_mass_kg**  : for a given container number, provides the max gross mass in kg
-- **max_gross_mass_lbs** : for a given container number, provides the max gross mass in lbs
-
-The following entry points are planned, but not yet available, for updating the BoxTech database :
-- **fleet_in** : declare a new container in my fleet
-- **fleet_out** : declare that a container has left my fleet
-- **fleet_replace** : upload a file with the whole contents of my fleet, replacing the existing contents
-
-The container tare weight API is being made available first, because this is the most urgent.  An API allowing the download of a fuller set of container characteristics will eventually be added.
-
-
-## Prerequisites <a id="prerequisites"></a>
-
-To use the BoxTech API, you will need the following :
-
-### **Username** and **Password**
-You will be given these once you have signed up on the BoxTech app : see [BIC BoxTech website](http://www.bic-boxtech.org)
-Remember that, from time to time, you may need to approve new Terms and Conditions : to do this, simply log in manually into the app : see [the FAQ](http://www.bic-boxtech.org/faqs)
-
-### **Clientid**
-
-You will use the following value for **clientid** in your tests and in your app :
-- for production and sandbox, **clientid** is YmljYXBwOmJpY3NlY3JldGFwcA==
-
-### Endpoint
-
-The endpoint for the BoxTech REST API is :
-- for Production : app.bic-boxtech.org/api
-- for Sandbox : test-bic-container.herokuapp.com/api
-
-### Container number
-
-For Sandbox, you may test you tare request with the following container number : GLDU5334260
-Generally speaking, the container number format is AAAU9999999 :
-- BIC Code of 4 characters
-- Container number with 6 digits plus 1 check digit.
-
-
-## Detailed Samples <a id="samples"></a>
-
-A simple flow would be the following :
-- call the authentication service with username/password; this returns a token used in all other API calls
-- call the tare_kg entry point, passing the authentication token and the container number; this returns the tare in kgs 
-
-The following chapters describe how to use the API :
-
-1. [AUTHENTICATION](../../wiki/Authentication)
-
-2. [TARE_KG, TARE_LBS](../../wiki/Tare-Weight) : how to call these entry points
-
-3. [ERRORS](../../wiki/Errors) : details about error codes and messages
-
-
-## Manual Tests with a REST Client <a id="manualtests"></a>
-
-We have added a step-by-step description of manual tests we suggest you run with Postman, a REST Client application :
-- sign up for a sandbox user for data access only
-- authenticate with this user to get a token
-- call the tare_kg service with this token to look up the tare weight of a container
-- repeat the operation in production
-
-More details [in this guide](./ManualTests/ManualTests.mdown)
-
-
-## Feedback and Support
-
-We invite you to add your comments about the Tare Weight API service here as comments on this GitHub issue :
-	https://github.com/bic-boxtech/BIC-BoxTech-API-Samples/issues/1
-	
-If you have other problems or questions, we invite you to enter them here as a new issue :
-	https://github.com/bic-boxtech/BIC-BoxTech-API-Samples/issues/new
-
-** Please do not look for support by email - response time on GitHub will be much faster **
+Boxtech is a non-profit platform for container technical details and BIC are dedicated to supporting digitalization and improving safety and security through the provision of open transparent data.  We look forward to hearing from you.
