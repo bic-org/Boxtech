@@ -1,4 +1,4 @@
-theme: jekyll-theme-slate
+theme: "just-the-docs"
 title: BIC Boxtech API
 description: Technical details for the global container fleet
 show_downloads: false

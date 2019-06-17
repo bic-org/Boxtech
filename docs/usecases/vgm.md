@@ -1,6 +1,7 @@
 ---
 layout: default
 title: SOLAS VGM
+parent: Use Cases
 ---
 
 # SOLAS VGM Process

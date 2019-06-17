@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Terminal Operations
+parent: Use Cases
 ---
 
 ### Terminal Process
@@ -21,7 +22,7 @@ https://app.bic-boxtech.org/api/v2.0/container/GLDU5334260
 
 **Examine the Results**
 
-Look for the `tare_kg` in the json response, you can now use this value in your SOLAS VGM method 2 calculations.
+Look for the `max_payload_kg` in the json response, you can now compare this against the weight provided from the weighing equipment for the container of interest to ensure a safe operating weight.
 
 ```
 {

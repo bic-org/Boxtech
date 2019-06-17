@@ -1,30 +1,44 @@
-# MANUAL TESTS
+---
+layout: default
+title: Get Started
+nav_order: 2
+---
 
-The easiest way to test the BoxTech API is to do it manually, using a REST Client such as Postman (see http://www.getpostman.com) which can be run in your browser or on your desktop.
+# Using an API Client
 
-## Signup in the BoxTech sandbox
+The easiest way to test the BoxTech API is to use a REST Client such as Postman see [http://www.getpostman.com](http://www.getpostman.com)) which can be run in your browser or on your desktop.  This client access will help you understand the API before starting to write code to automate the calls.
 
-Point your web browser at http://test-bic-container.herokuapp.com and signup for a new user account.
-Signup "for Data Access only". Accept Terms and Conditions. Confirm your account activation by clicking the link received by email.
+**This guide will take around 10 minutes to complete**
+
+## Signup for Boxtech API
+
+Visit [https://www.bic-boxtech.org/sign-up/](https://www.bic-boxtech.org/sign-up/)
+* Signup for a new user account to access data.  Accept Terms and Conditions.
+* Confirm your account activation by clicking the link received by email.
+
 You now have a <username\> and <password\> you can use in the API.
 
 ## Get hold of Postman
 
-Download Postman to your desktop or run it in your brwoser.
+Download Postman to your desktop or run it in your browser.
 Create a (free account) to save your tests for future reference.
 
 ## Authentication
 
-Now you are in, create a 'New Tab' at the top of the screen
+Now you are in postman, create a 'New Tab' at the top of the screen
 ![New tab in Postman](./images/01_New_Tab.png)
 
-Configure the BoxTech API Authentification call :
+Configure the BoxTech API Authentication call :
 - select the POST operation
-- use the http://test-bic-container.herokuapp.com/oauth/token URL
+- enter http://app.bic-boxtech.org/oauth/token for the URL
 - add 2 headers in the Headers section :
-+ key = Content-Type, value = application/x-www-form-urlencoded
-+ key = Authorization, value = Basic YmljYXBwOmJpY3NlY3JldGFwcA==
-Note : the value of the Authorization key is called the <clientid\>
+
+| **Key** | **Value** |
+| Content-Type | application/x-www-form-urlencoded |
+| Authorization | Basic YmljYXBwOmJpY3NlY3JldGFwcA== |
+
+*Note : the value of the Authorization key is called the <clientid\>*
+
 ![AUthentication headers](./images/02_Auth_Headers.png)
 
 Move to the Body section :

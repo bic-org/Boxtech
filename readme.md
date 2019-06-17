@@ -17,10 +17,10 @@ To start using the Boxtech API you will need to request an API key, the key is f
 
 To request an API key please follow the signup process on [the website](https://www.bic-boxtech.org/sign-up/) and click the link that is sent to activate your account.
 
-Now you can request a token to start calling the API, the instructions to do this are [here](...)
+Now you can request a token to start calling the API, the instructions to do this are [here](https://github.com/bic-boxtech/BIC-BoxTech-API-Samples/blob/master/ManualTests/ManualTests.mdown)
 
 Your now good to go and start using the Boxtech API.  Some other useful resources can be found:
-* [Using Postman to query the API](https://github.com/bic-boxtech/BIC-BoxTech-API-Samples/blob/master/ManualTests/ManualTests.mdown)
+* [Using Postman to query the Boxtech API](https://github.com/bic-boxtech/BIC-BoxTech-API-Samples/blob/master/ManualTests/ManualTests.mdown)
 * [API specification](https://bic-boxtech.github.io/BIC-Boxtech-API-documentation/index.html)
 
 ## Need Help?
