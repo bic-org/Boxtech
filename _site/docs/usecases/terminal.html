@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  
+    <title>Terminal Operations - BIC Boxtech API</title>
+
+    
+  
+
+  <link rel="shortcut icon" href="http://localhost:4000/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/just-the-docs.css">
+
+  
+
+  
+  <script type="text/javascript" src="http://localhost:4000/assets/js/just-the-docs.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Terminal Operations | BIC Boxtech API</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Terminal Operations" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Technical details for the global container fleet" />
+<meta property="og:description" content="Technical details for the global container fleet" />
+<link rel="canonical" href="http://localhost:4000/docs/usecases/terminal.html" />
+<meta property="og:url" content="http://localhost:4000/docs/usecases/terminal.html" />
+<meta property="og:site_name" content="BIC Boxtech API" />
+<script type="application/ld+json">
+{"description":"Technical details for the global container fleet","@type":"WebPage","url":"http://localhost:4000/docs/usecases/terminal.html","headline":"Terminal Operations","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+
+  <div class="page-wrap">
+    <div class="side-bar">
+      <a href="http://localhost:4000" class="site-title fs-6 lh-tight">BIC Boxtech API</a>
+      <span class="fs-3"><button class="js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button" data-text-toggle="Hide">Menu</button></span>
+      <div class="navigation main-nav js-main-nav">
+        <nav role="navigation" aria-label="Main navigation">
+  <ul class="navigation-list">
+    
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="http://localhost:4000/" class="navigation-list-link">BIC Boxtech Global Container Database</a>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="http://localhost:4000/ManualTests/ManualTests.html" class="navigation-list-link">Get Started</a>
+            
+          </li>
+        
+      
+    
+      
+        
+          <li class="navigation-list-item active">
+            
+            <a href="http://localhost:4000/docs/usecases" class="navigation-list-link">Use Cases</a>
+            
+              
+              <ul class="navigation-list-child-list ">
+                
+                  
+                
+                  
+                    <li class="navigation-list-item  active">
+                      
+                      <a href="http://localhost:4000/docs/usecases/terminal.html" class="navigation-list-link active">Terminal Operations</a>
+                      
+                    </li>
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/usecases/vgm.html" class="navigation-list-link">SOLAS VGM</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+              </ul>
+            
+          </li>
+        
+      
+    
+  </ul>
+</nav>
+
+      </div>
+      <footer role="contentinfo" class="site-footer">
+        <p class="text-small text-grey-dk-000 mb-0">This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.</p>
+      </footer>
+    </div>
+    <div class="main-content-wrap js-main-content" tabindex="0">
+      <div class="page-header">
+        <div class="main-content">
+          
+          
+        </div>
+      </div>
+      <div class="main-content">
+        
+          
+            <nav class="breadcrumb-nav">
+              <ol class="breadcrumb-nav-list">
+                
+                  <li class="breadcrumb-nav-list-item"><a href="http://localhost:4000/docs/usecases">Use Cases</a></li>
+                
+                <li class="breadcrumb-nav-list-item"><span>Terminal Operations</span></li>
+              </ol>
+            </nav>
+          
+        
+        <div id="main-content" class="page-content" role="main">
+          <h3 id="terminal-process">Terminal Process</h3>
+
+<p>BoxTech allows shippers, carriers, terminals, depots, and other supply chain participants to instantly obtain technical information about containers, such as tare weight, size/type and maximum gross mass.</p>
+
+<p>BoxTech means a one-stop-shop to obtain container max weights for your automated safety checks within a terminal.</p>
+
+<p>To obtain the max weight weight for a given containers</p>
+
+<p><strong>Query the API</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://app.bic-boxtech.org/api/v2.0/container/GLDU5334260
+</code></pre></div></div>
+
+<p><em>Note: You will need to provide the bearer in the header as described in the <a href="">guide</a> with your token</em></p>
+
+<p><strong>Examine the Results</strong></p>
+
+<p>Look for the <code class="highlighter-rouge">max_payload_kg</code> in the json response, you can now compare this against the weight provided from the weighing equipment for the container of interest to ensure a safe operating weight.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+       "uploaderaccountname": "TOUAX",
+       "bic_code": "GLDU",
+       "prefix": "GLD",
+       "equipment_identifier": "U",
+       "serial_number": "533426",
+       "check_digit": "0",
+       "group_st": "20DC",
+       "detail_st": null,
+       "tare_kg": 2230,
+       "tare_lbs": 4920,
+       "max_payload_kg": 30480,
+       "max_payload_lbs": 67200,
+       "max_gross_mass_kg": 28250,
+       "max_gross_mass_lbs": 62280,
+       "cubic_capacity_cbm": 33,
+       "cubic_capacity_cuft": 1170,
+       "stacking_kg": 216000,
+       "stacking_lbs": 476190,
+       "racking_kg": null,
+       "racking_lbs": null,
+       "racking_n": null,
+       "one_door_off_stacking_kg": null,
+       "one_door_off_stacking_lbs": null,
+       "one_door_off_racking_kg": null,
+       "one_door_off_racking_lbs": null,
+       "one_door_off_racking_n": null,
+       "one_door_off_end_wall_strength_kg": null,
+       "one_door_off_end_wall_strength_lbs": null,
+       "manufacture_number": null,
+       "manufacture_date": "2008-03-27T00:00:00.000Z",
+       "manufacturer": "CIMCDCMCDALIAN",
+       "customs_approval": null,
+       "customs_approval_type": null,
+       "csc_approval": null,
+       "timber_treatment_approval": null,
+       "external_length_mm": null,
+       "external_width_mm": null,
+       "external_height_mm": null,
+       "internal_length_mm": null,
+       "internal_width_mm": null,
+       "internal_height_mm": null,
+       "door_opening_width_mm": null,
+       "door_opening_height_mm": null,
+       "codeholder": "TOUAX",
+       "container_number": "GLDU5334260",
+       "checkDigitwarning": false,
+       "external_length_ft": null,
+       "internal_length_ft": null,
+       "external_width_ft": null,
+       "internal_width_ft": null,
+       "external_height_ft": null,
+       "internal_height_ft": null,
+       "door_opening_width_ft": null,
+       "door_opening_height_ft": null
+   }
+</code></pre></div></div>
+
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

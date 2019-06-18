@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+
+    <title>Get Started - BIC Boxtech API</title>
+
+
+
+
+  <link rel="shortcut icon" href="http://localhost:4000/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/just-the-docs.css">
+
+
+
+
+  <script type="text/javascript" src="http://localhost:4000/assets/js/just-the-docs.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Get Started | BIC Boxtech API</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Get Started" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Technical details for the global container fleet" />
+<meta property="og:description" content="Technical details for the global container fleet" />
+<link rel="canonical" href="http://localhost:4000/ManualTests/ManualTests.html" />
+<meta property="og:url" content="http://localhost:4000/ManualTests/ManualTests.html" />
+<meta property="og:site_name" content="BIC Boxtech API" />
+<script type="application/ld+json">
+{"description":"Technical details for the global container fleet","@type":"WebPage","url":"http://localhost:4000/ManualTests/ManualTests.html","headline":"Get Started","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+
+  <div class="page-wrap">
+    <div class="side-bar">
+      <a href="http://localhost:4000" class="site-title fs-6 lh-tight">BIC Boxtech API</a>
+      <span class="fs-3"><button class="js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button" data-text-toggle="Hide">Menu</button></span>
+      <div class="navigation main-nav js-main-nav">
+        <nav role="navigation" aria-label="Main navigation">
+  <ul class="navigation-list">
+
+
+
+
+          <li class="navigation-list-item">
+
+            <a href="http://localhost:4000/" class="navigation-list-link">BIC Boxtech Global Container Database</a>
+
+          </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <li class="navigation-list-item active">
+
+            <a href="http://localhost:4000/ManualTests/ManualTests.html" class="navigation-list-link active">Get Started</a>
+
+          </li>
+
+
+
+
+
+          <li class="navigation-list-item">
+
+            <a href="http://localhost:4000/docs/usecases" class="navigation-list-link">Use Cases</a>
+
+
+              <ul class="navigation-list-child-list ">
+
+
+
+
+                    <li class="navigation-list-item ">
+
+                      <a href="http://localhost:4000/docs/usecases/terminal.html" class="navigation-list-link">Terminal Operations</a>
+
+                    </li>
+
+
+
+                    <li class="navigation-list-item ">
+
+                      <a href="http://localhost:4000/docs/usecases/vgm.html" class="navigation-list-link">SOLAS VGM</a>
+
+                    </li>
+
+
+
+
+
+
+              </ul>
+
+          </li>
+
+
+
+  </ul>
+</nav>
+
+      </div>
+      <footer role="contentinfo" class="site-footer">
+        <p class="text-small text-grey-dk-000 mb-0">This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.</p>
+      </footer>
+    </div>
+    <div class="main-content-wrap js-main-content" tabindex="0">
+      <div class="page-header">
+        <div class="main-content">
+
+
+        </div>
+      </div>
+      <div class="main-content">
+
+
+
+        <div id="main-content" class="page-content" role="main">
+          <h1 id="using-an-api-client">Using an API Client</h1>
+
+<p>The easiest way to test the BoxTech API is to use a REST Client such as Postman see <a href="http://www.getpostman.com">http://www.getpostman.com</a>) which can be run in your browser or on your desktop.  This client access will help you understand the API before starting to write code to automate the calls.</p>
+
+<p><strong>This guide will take around 10 minutes to complete</strong></p>
+
+<h2 id="signup-for-boxtech-api">Signup for Boxtech API</h2>
+
+<p>Visit <a href="https://www.bic-boxtech.org/sign-up/">https://www.bic-boxtech.org/sign-up/</a></p>
+<ul>
+  <li>Signup for a new user account to access data.  Accept Terms and Conditions.</li>
+  <li>Confirm your account activation by clicking the link received by email.</li>
+</ul>
+
+<p>You now have a &lt;username&gt; and &lt;password&gt; you can use in the API.</p>
+
+<h2 id="get-hold-of-postman">Get hold of Postman</h2>
+
+<p>Download Postman to your desktop or run it in your browser.
+Create a (free account) to save your tests for future reference.</p>
+
+<h2 id="authentication">Authentication</h2>
+
+<p>Now you are in postman, create a ‘New Tab’ at the top of the screen
+<img src="/ManualTests/images/01_New_Tab.png" alt="New tab in Postman" /></p>
+
+<p>Configure the BoxTech API Authentication call :</p>
+<ul>
+  <li>select the POST operation</li>
+  <li>enter http://app.bic-boxtech.org/oauth/token for the URL</li>
+  <li>add 2 headers in the Headers section :</li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Key</strong></td>
+      <td><strong>Value</strong></td>
+    </tr>
+    <tr>
+      <td>Content-Type</td>
+      <td>application/x-www-form-urlencoded</td>
+    </tr>
+    <tr>
+      <td>Authorization</td>
+      <td>Basic YmljYXBwOmJpY3NlY3JldGFwcA==</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em>Note : the value of the Authorization key is called the &lt;clientid&gt;</em></p>
+
+<p><img src="/ManualTests/images/02_Auth_Headers.png" alt="AUthentication headers" /></p>
+
+<p>Move to the Body section :</p>
+<ul>
+  <li>select the x-www-url-encoded type of body</li>
+  <li>add 3 values in the body :</li>
+  <table>
+    <tbody>
+      <tr>
+        <td><strong>Key</strong></td>
+        <td><strong>Value</strong></td>
+      </tr>
+      <tr>
+        <td>grant_type/td>
+        <td>password</td>
+      </tr>
+      <tr>
+        <td>username</td>
+        <td>xxx@xxx.com</td>
+      </tr>
+      <tr>
+        <td>password</td>
+        <td>abcc</td>
+      </tr>
+    </tbody>
+  </table>
+  <li>save your work by clicking Save on the right, and store it in a collection you will call BIC BoxTech
+<img src="/ManualTests/images/03_Auth_Body.png" alt="Authentication body" /></li>
+</ul>
+
+<p>Click Send : you should get a response which looks like this :
+<img src="/ManualTests/images/04_Auth_Response.png" alt="Authentication body" /></p>
+
+<p>Grab the “accessToken” value, in our case : 784b64f338a812343915c6f4734d2f71fe14a68d</p>
+
+<h2 id="call-tare_kg">Call Tare_kg</h2>
+
+<p>In Postman, create a new tab at the top of the screen.</p>
+
+<p>Configure the BoxTech API Tare_kg call :</p>
+<ul>
+  <li>select the GET operation</li>
+  <li>use the http://app.bic-boxtech.org/api/tare_kg/api/tare_kg/GLDU5334260 URL : this will query for the GLDU5334260 container. Note the format of the container number which includes the check digit</li>
+  <li>add 1 header in the Headers section :</li>
+  <table>
+    <tbody>
+      <tr>
+        <td><strong>Key</strong></td>
+        <td><strong>Value</strong></td>
+      </tr>
+      <tr>
+        <td>Authorization</td>
+        <td>Bearer 784b64f338a812343915c6f4734d2f71fe14a68d </td>
+      </tr>
+    </tbody>
+  </table>
+  <li>(in your case, Bearer followed by the &lt;accessToken&gt; you saved previously, separated by a blank space)</li>
+  <li>save your work which should look like this :
+<img src="/ManualTests/images/05_Tare_kg_Headers.png" alt="Tare_kg headers" /></li>
+</ul>
+
+<p>Click Send : you should get a response like this :
+<img src="/ManualTests/images/06_Tare_kg_Response.png" alt="Tare_kg response" /></p>
+
+<p>The tare weight of the container is 2232 kg.</p>
+
+<h2 id="call-tare_lbs">Call Tare_lbs</h2>
+
+<p>You can practise on in a new tab to call the tare_lbs service, with the same parameters, to query for the tare weight in lbs.</p>
+
+<li>use the http://app.bic-boxtech.org/api/tare_lbs URL for the Tare (lbs)</li>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Key</strong></td>
+      <td><strong>Value</strong></td>
+    </tr>
+    <tr>
+      <td>Authorization</td>
+      <td>Bearer 784b64f338a812343915c6f4734d2f71fe14a68d </td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
