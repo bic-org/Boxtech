@@ -5,19 +5,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-  
+
     <title>Get Started - BIC Boxtech API</title>
 
-    
-  
+
+
 
   <link rel="shortcut icon" href="http://localhost:4000/favicon.ico" type="image/x-icon">
 
   <link rel="stylesheet" href="http://localhost:4000/assets/css/just-the-docs.css">
 
-  
 
-  
+
+
   <script type="text/javascript" src="http://localhost:4000/assets/js/just-the-docs.js"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -47,73 +47,73 @@
       <div class="navigation main-nav js-main-nav">
         <nav role="navigation" aria-label="Main navigation">
   <ul class="navigation-list">
-    
-    
-      
-        
+
+
+
+
           <li class="navigation-list-item">
-            
+
             <a href="http://localhost:4000/" class="navigation-list-link">BIC Boxtech Global Container Database</a>
-            
+
           </li>
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
           <li class="navigation-list-item active">
-            
+
             <a href="http://localhost:4000/ManualTests/ManualTests.html" class="navigation-list-link active">Get Started</a>
-            
+
           </li>
-        
-      
-    
-      
-        
+
+
+
+
+
           <li class="navigation-list-item">
-            
+
             <a href="http://localhost:4000/docs/usecases" class="navigation-list-link">Use Cases</a>
-            
-              
+
+
               <ul class="navigation-list-child-list ">
-                
-                  
-                
-                  
+
+
+
+
                     <li class="navigation-list-item ">
-                      
+
                       <a href="http://localhost:4000/docs/usecases/terminal.html" class="navigation-list-link">Terminal Operations</a>
-                      
+
                     </li>
-                  
-                
-                  
+
+
+
                     <li class="navigation-list-item ">
-                      
+
                       <a href="http://localhost:4000/docs/usecases/vgm.html" class="navigation-list-link">SOLAS VGM</a>
-                      
+
                     </li>
-                  
-                
-                  
-                
-                  
-                
+
+
+
+
+
+
               </ul>
-            
+
           </li>
-        
-      
-    
+
+
+
   </ul>
 </nav>
 
@@ -125,14 +125,14 @@
     <div class="main-content-wrap js-main-content" tabindex="0">
       <div class="page-header">
         <div class="main-content">
-          
-          
+
+
         </div>
       </div>
       <div class="main-content">
-        
-          
-        
+
+
+
         <div id="main-content" class="page-content" role="main">
           <h1 id="using-an-api-client">Using an API Client</h1>
 
@@ -192,9 +192,26 @@ Create a (free account) to save your tests for future reference.</p>
 <ul>
   <li>select the x-www-url-encoded type of body</li>
   <li>add 3 values in the body :</li>
-  <li>key = grant_type, value = password</li>
-  <li>key = username, value = &lt;your_username&gt;</li>
-  <li>key = paswsword, value = &lt;your_password&gt;</li>
+  <table>
+    <tbody>
+      <tr>
+        <td><strong>Key</strong></td>
+        <td><strong>Value</strong></td>
+      </tr>
+      <tr>
+        <td>grant_type/td>
+        <td>password</td>
+      </tr>
+      <tr>
+        <td>username</td>
+        <td>xxx@xxx.com</td>
+      </tr>
+      <tr>
+        <td>password</td>
+        <td>abcc</td>
+      </tr>
+    </tbody>
+  </table>
   <li>save your work by clicking Save on the right, and store it in a collection you will call BIC BoxTech
 <img src="/ManualTests/images/03_Auth_Body.png" alt="Authentication body" /></li>
 </ul>
@@ -211,9 +228,21 @@ Create a (free account) to save your tests for future reference.</p>
 <p>Configure the BoxTech API Tare_kg call :</p>
 <ul>
   <li>select the GET operation</li>
-  <li>use the http://test-bic-container.herokuapp.com/api/tare_kg/GLDU5334260 URL : this will query for the GLDU5334260 container. Note the format of the container number which includes the check digit</li>
+  <li>use the http://app.bic-boxtech.org/api/tare_kg/api/tare_kg/GLDU5334260 URL : this will query for the GLDU5334260 container. Note the format of the container number which includes the check digit</li>
   <li>add 1 header in the Headers section :</li>
-  <li>key = Authorization, value = Bearer 784b64f338a812343915c6f4734d2f71fe14a68d (or in your case, Bearer followed by the &lt;accessToken&gt; you saved previously, separated by a blank space)</li>
+  <table>
+    <tbody>
+      <tr>
+        <td><strong>Key</strong></td>
+        <td><strong>Value</strong></td>
+      </tr>
+      <tr>
+        <td>Authorization</td>
+        <td>Bearer 784b64f338a812343915c6f4734d2f71fe14a68d </td>
+      </tr>
+    </tbody>
+  </table>
+  <li>(in your case, Bearer followed by the &lt;accessToken&gt; you saved previously, separated by a blank space)</li>
   <li>save your work which should look like this :
 <img src="/ManualTests/images/05_Tare_kg_Headers.png" alt="Tare_kg headers" /></li>
 </ul>
@@ -225,20 +254,22 @@ Create a (free account) to save your tests for future reference.</p>
 
 <h2 id="call-tare_lbs">Call Tare_lbs</h2>
 
-<p>You can practise on your own creating a new test in a new tab to call the tare_lbs service, with the same parameters, to query for the tare weight in lbs.</p>
+<p>You can practise on in a new tab to call the tare_lbs service, with the same parameters, to query for the tare weight in lbs.</p>
 
-<h2 id="same-tests-in-production">Same tests in Production</h2>
+<li>use the http://app.bic-boxtech.org/api/tare_lbs URL for the Tare (lbs)</li>
 
-<p>To run the same tests in the BIC BoxTech Production database :</p>
-<ul>
-  <li>signup for a “Data access only” user in production. Accept Terms and Conditions. Confirm your account activation by clicking the link received by email. You now have a production &lt;username&gt; and &lt;password&gt; you can use in the API in production</li>
-  <li>use the http://app.bic-boxtech.org/oauth/token URL for authentication in production</li>
-  <li>use the http://app.bic-boxtech.org/api/tare_kg URL for the Tare (kg) service in production</li>
-  <li>use the http://app.bic-boxtech.org/api/tare_lbs URL for the Tare (lbs) service in production</li>
-</ul>
-
-
-          
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Key</strong></td>
+      <td><strong>Value</strong></td>
+    </tr>
+    <tr>
+      <td>Authorization</td>
+      <td>Bearer 784b64f338a812343915c6f4734d2f71fe14a68d </td>
+    </tr>
+  </tbody>
+</table>
         </div>
       </div>
     </div>
