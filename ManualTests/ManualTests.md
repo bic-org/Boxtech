@@ -60,31 +60,26 @@ Click Send : you should get a response which looks like this :
 
 Grab the `access_token` value, in our case : `784b64f338a812343915c6f4734d2f71fe14a68d`
 
-## Call Tare_kg
+## Call GET container API
 
 In Postman, create a new tab at the top of the screen.
 
-Configure the BoxTech API Tare_kg call :
+Configure the BoxTech API get container call :
 - select the GET operation
-- use the https://app.bic-boxtech.org/api/v2.0/container/CMAU5841972 URL : this will query for the GLDU5334260 container. Note the format of the container number which includes the check digit
-- add 1 header in the Headers section :
+- use the `https://app.bic-boxtech.org/api/v2.0/container/GLDU5334260` URL : this will query for the GLDU5334260 container. Note the format of the container number which includes the check digit
+- add 1 header in the Headers section
 
 | **Key** | **Value** |
-| Authorization | *access_token* |
+| ------- | --------- |
+| Authorization | Bearer *access_token* |
 
-- (or in your case, Bearer followed by the <accessToken\> you saved previously, separated by a blank space)
+*NOTE: Replace the `access_token` with the one you retrieved previously, in our example `784b64f338a812343915c6f4734d2f71fe14a68d`*
+
+
 - save your work which should look like this :
-![Tare_kg headers](./images/05_Tare_kg_Headers.png)
+![Get headers](./images/05_Get_Headers.png)
 
 Click Send : you should get a response like this :
-![Tare_kg response](./images/06_Tare_kg_Response.png)
+![Tare_kg response](./images/06_get_Response.png)
 
-The tare weight of the container is 2232 kg.
-
-## Call Tare_lbs
-
-You can practise on your own by creating a new tab to call the tare_lbs service, with the same parameters, to query for the tare weight in lbs.
-- use the http://app.bic-boxtech.org/api/tare_lbs/GLDU5334260 URL :
-
-| **Key** | **Value** |
-| Authorization | Bearer 784b64f338a812343915c6f4734d2f71fe14a68d |
+The `tare_weight` of the container is 2200 kg.

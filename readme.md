@@ -1,8 +1,3 @@
----
-layout: default
-title: BIC Boxtech Global Container Database
----
-
 # Introduction
 
 The Bureau International des Containers et du Transport Intermodal (BIC) provide Boxtech to support digitalization in the container industry as a free to use digital resource, that can be accessed through an API.
@@ -17,10 +12,9 @@ To start using the Boxtech API you will need to request an API key, the key is f
 
 To request an API key please follow the signup process on [the website](https://www.bic-boxtech.org/sign-up/) and click the link that is sent to activate your account.
 
-Now you can request a token to start calling the API, the instructions to do this are [here](https://github.com/bic-boxtech/BIC-BoxTech-API-Samples/blob/master/ManualTests/ManualTests.mdown)
+Now you can now request a token to start calling the API, the [Getting Started Guide](ManualTests/ManualTests.md) will help you get up and running.
 
-Your now good to go and start using the Boxtech API.  Some other useful resources can be found:
-* [Using Postman to query the Boxtech API](https://github.com/bic-boxtech/BIC-BoxTech-API-Samples/blob/master/ManualTests/ManualTests.mdown)
+Your now good to go and start using the Boxtech API.  The swagger spec for the API is below
 * [API specification](https://bic-boxtech.github.io/BIC-Boxtech-API-documentation/index.html)
 
 ## Need Help?
