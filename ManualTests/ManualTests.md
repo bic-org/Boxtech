@@ -26,11 +26,12 @@ Create a (free account) to save your tests for future reference.
 ## Authentication
 
 Now you are in postman, create a 'New Tab' at the top of the screen
+
 ![New tab in Postman](./images/01_New_Tab.png)
 
 Configure the BoxTech API Authentication call :
 - select the POST operation
-- enter http://app.bic-boxtech.org/oauth/token for the URL
+- enter `http://app.bic-boxtech.org/oauth/token` for the URL
 - add 2 headers in the Headers section
 
 | **Key** | **Value** |
@@ -53,12 +54,14 @@ Move to the Body section :
 | password | *your_password* |
 
 - save your work by clicking Save on the right, and store it in a collection you will call BIC BoxTech
+
 ![Authentication body](./images/03_Auth_Body.png)
 
 Click Send : you should get a response which looks like this :
+
 ![Authentication body](./images/04_Auth_Response.png)
 
-Grab the `access_token` value, in our case : `784b64f338a812343915c6f4734d2f71fe14a68d`
+Grab the `access_token` value, in our case : `0b59efa0ddf2b2764eb0501be6c312d0e8dc92eb`
 
 ## Call GET container API
 
@@ -73,13 +76,15 @@ Configure the BoxTech API get container call :
 | ------- | --------- |
 | Authorization | Bearer *access_token* |
 
-*NOTE: Replace the `access_token` with the one you retrieved previously, in our example `784b64f338a812343915c6f4734d2f71fe14a68d`*
+*NOTE: Replace the `access_token` with the one you retrieved previously, in our example `0b59efa0ddf2b2764eb0501be6c312d0e8dc92eb`*
 
 
 - save your work which should look like this :
+
 ![Get headers](./images/05_Get_Headers.png)
 
 Click Send : you should get a response like this :
+
 ![Tare_kg response](./images/06_get_Response.png)
 
-The `tare_weight` of the container is 2200 kg.
+The `tare_kg` of the container is 2230 kg.
