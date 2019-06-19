@@ -4,9 +4,9 @@ The Bureau International des Containers et du Transport Intermodal (BIC) provide
 
 There are some sample use cases detailed to help understand how you may use some of the information available.  Boxtech data is provided with support from the shipping lines, lease companies and other container operators, giving more detail than is available on the container door and identifying the current operator for the container in the case of lease containers.  Full details can be found on [the website](http://www.bic-boxtech.org)
 
-BIC are a non-profit organisation serving the container transportation industry.
+The BIC is a neutral, non-profit, international organization founded in 1933 under the auspices of the International Chamber of Commerce.  For more information about the BIC, please see [bic-code.org](https://www.bic-code.org)
 
-[BIC are on GitHub](https://github.com/bic-boxtech/BIC-BoxTech-API-Samples){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[The BIC are on GitHub](https://github.com/bic-boxtech/BIC-BoxTech-API-Samples){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 
 ## How to get started with Boxtech
