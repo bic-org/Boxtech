@@ -10,7 +10,7 @@ BoxTech allows shippers, carriers, terminals, depots, and other supply chain par
 
 BoxTech means a one-stop-shop to obtain container max weights for your automated safety checks within a terminal.
 
-To obtain the max weight weight for a given containers
+To obtain the max weight for a given container
 
 **Query the API**
 
@@ -22,7 +22,7 @@ https://app.bic-boxtech.org/api/v2.0/container/GLDU5334260
 
 **Examine the Results**
 
-Look for the `max_payload_kg` in the json response, you can now compare this against the weight provided from the weighing equipment for the container of interest to ensure a safe operating weight.
+Look for the `max_gross_mass_kg` in the json response, you can now compare this against the weight provided from the weighing equipment for the container of interest to ensure a safe operating weight.
 
 ```
 {
