@@ -31,7 +31,7 @@ Now you are in postman, create a 'New Tab' at the top of the screen
 
 Configure the BoxTech API Authentication call :
 - select the POST operation
-- enter http://app.bic-boxtech.org/oauth/token for the URL
+- enter `http://app.bic-boxtech.org/oauth/token` for the URL
 - add 2 headers in the Headers section
 
 | **Key** | **Value** |
@@ -87,4 +87,4 @@ Click Send : you should get a response like this :
 
 ![Tare_kg response](./images/06_get_Response.png)
 
-The `tare_weight` of the container is 2230 kg.
+The `tare_kg` of the container is 2230 kg.
