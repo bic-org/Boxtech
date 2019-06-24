@@ -6,7 +6,7 @@ nav_order: 2
 
 # Using an API Client
 
-The easiest way to test the BoxTech API is to use a REST Client such as Postman see [http://www.getpostman.com](http://www.getpostman.com)) which can be run in your browser or on your desktop.  This client access will help you understand the API before starting to write code to automate the calls.
+The easiest way to test the BoxTech API is to use a REST Client such as Postman see [http://www.getpostman.com](http://www.getpostman.com/downloads/)) which can be run in your browser or on your desktop.  This client access will help you understand the API before starting to write code to automate the calls.
 
 **This guide will take around 10 minutes to complete**
 
@@ -31,7 +31,7 @@ Now you are in postman, create a 'New Tab' at the top of the screen
 
 Configure the BoxTech API Authentication call :
 - select the POST operation
-- enter `http://app.bic-boxtech.org/oauth/token` for the URL
+- enter `https://app.bic-boxtech.org/oauth/token` for the URL
 - add 2 headers in the Headers section
 
 | **Key** | **Value** |
