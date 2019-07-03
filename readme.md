@@ -6,7 +6,7 @@ There are some sample use cases detailed to help understand how you may use some
 
 The BIC is a neutral, non-profit, international organization founded in 1933 under the auspices of the International Chamber of Commerce.  For more information about the BIC, please see [bic-code.org](https://www.bic-code.org)
 
-[The BIC are on GitHub](https://github.com/bic-boxtech/BIC-BoxTech-API-Samples){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[The BIC are on GitHub](https://github.com/bic-boxtech/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 
 ## How to get started with Boxtech
