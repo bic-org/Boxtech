@@ -1,6 +1,6 @@
 # Introduction
 
-The Bureau International des Containers et du Transport Intermodal (BIC) provide Boxtech to support digitalization in the container industry as a free to use digital resource, that can be accessed through an API.
+The Bureau International des Containers et du Transport Intermodal (BIC) provide Boxtech to support digitalization in the container industry as a free to use digital resource, that can be accessed through an API
 
 There are some sample use cases detailed to help understand how you may use some of the information available.  Boxtech data is provided with support from the shipping lines, lease companies and other container operators, giving more detail than is available on the container door and identifying the current operator for the container in the case of lease containers.  Full details can be found on [the website](http://www.bic-boxtech.org)
 
