@@ -17,8 +17,8 @@ To request an API key please follow the signup process on [the website](https://
 
 Now you can now request a token to start calling the API, the [Getting Started Guide](ManualTests/ManualTests.md) will help you get up and running.
 
-Your now good to go and start using the Boxtech API.  The swagger spec for the API is below
-* [API specification](https://bic-boxtech.github.io/BIC-Boxtech-API-documentation/index.html)
+Your now good to go and start using the Boxtech API.  The swagger spec for the API is available on swaggerhub:
+* [API specification](https://app.swaggerhub.com/apis/BIC-ORG/Boxtech/2.0)
 
 ## Need Help?
 
