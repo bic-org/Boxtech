@@ -1,0 +1,65 @@
+# Managing your Fleet
+
+## Steps
+
+1. Request `Uploader Access` for your BIC Code
+2. Await Verification by BIC
+3. Start Managing your Fleet
+
+## Uploader Access Request
+
+You can request access as an uploader on the registration form when first registering for access to Boxtech, it is also possible to request access once logged in if it is required at a later time.
+
+You will just need to provide a BIC Code Prefix which will be used to verify your relationship to the BIC Code Holder's account in Boxtech, this is checked with the contact that registered the BIC Code from your organisation, they will receive an email from the BIC which they can confirm your request by clicking the button within the email.
+
+## Action Types 
+
+Boxtech contains a 2 types of action when it comes to managing your container fleet:
+
+* Fleet In / On Hire
+* Fleet Out / Off Hire
+
+You may have containers within your fleet that you own or lease, you can manage them through these actions.
+
+### Fleet In / On Hire
+
+The containers being uploaded are currently in your active fleet of containers, meaning you either own the containers or they are 'on hire' to you from a lessor.
+
+If you own the BIC Code Prefix you will be noted as the **BIC Code Holder** for these containers, as well as the **Current Operator**.  You will also be able to update the container details as the official owner.
+
+If you are leasing these containers and do not own the BIC prefix you will be identified as the **Current Operator** only, the **BIC Code Holder** will be automatically identified.
+
+### Fleet Out / Off Hire
+
+The containers being uploaded are to be removed from your active fleet of containers.  You can perform this action when the container is either owned by you and you are identified as the **BIC Code Holder** OR you are the **Current Operator** of the container.
+
+If the container is on hire to you, performing this action will remove you from the Current Operator field, meaning the container is no longer operated within your fleet.
+
+If you own the BIC Code Prefix you will be noted as the **BIC Code Holder** for these containers and a fleet out would remove these containers from your fleet, to remove containers from your fleet you will need to provide the reason so they can be appropriately marked in Boxtech, the options to do so are  [sold](container-alerts.md#sold) or [scrapped](container-alerts.md#scrapped) meaning the container details remain available to industry but are marked as no longer within your fleet.  
+
+## Use Cases
+
+Some typical examples of use cases and when to interact with the Fleet In / Out funcationality.
+
+### New Containers added to Fleet
+
+In this case you would simply add the containers to the template and upload using the **fleet in** feature.  This will add the containers to your fleet in Boxtech and identify you as the BIC Code Holder and/or the Current Operator.  This file can include owned containers and leased containers in the same file.
+
+### Update Container details 
+
+In this case you would fill in all container details known to you \(more complete the better\) and upload using the **fleet in** feature.  If the container exists and you are the BIC Code Holder the container details will be updated according to your request.
+
+If the containers are new to Boxtech they will be added using the details provided.
+
+### 'On Hire' Containers to my fleet
+
+In this case you would simply add the containers to the template and upload using the **fleet in** feature.  This will add the containers to your fleet in Boxtech and identify you as the Current Operator.
+
+### 'Off Hire' Containers from my fleet
+
+In this case you would simply add the containers to the template and upload using the **fleet out** feature.  This will remove you from the Current Operator field in Boxtech.
+
+### Remove Containers from my fleet
+
+You should use the sold or scrapped feature for this purpose, as you would know why and where the containers are leaving the fleet.  You can use the Fleet Out / Off Hire process if you are identifying containers in the same file that are being off hired or marked as sold or scrapped.
+

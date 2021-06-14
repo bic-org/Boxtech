@@ -1,28 +1,35 @@
 # Introduction
 
-The Bureau International des Containers et du Transport Intermodal \(BIC\) provide Boxtech to support digitalization in the container industry as a free to use digital resource, that can be accessed through an API
+Boxtech provides container technical detail for the global container fleet, you can see what data is available in our dataset, we would recommend that you use the API for integrating to your application as well as the user interface for less frequent lookups.
 
-There are some sample use cases detailed to help understand how you may use some of the information available. Boxtech data is provided with support from the shipping lines, lease companies and other container operators, giving more detail than is available on the container door and identifying the current operator for the container in the case of lease containers. Full details can be found on [the website](http://www.bic-boxtech.org)
+Full details on Boxtech and the BIC can be found at [https://www.bic-boxtech.org](https://www.bic-boxtech.org)
 
-The BIC is a neutral, non-profit, international organization founded in 1933 under the auspices of the International Chamber of Commerce. For more information about the BIC, please see [bic-code.org](https://www.bic-code.org)
+For feature requests, support or other requests please raise a github issue at [https://github.com/bic-org/Boxtech](https://github.com/bic-org/Boxtech) and we will reply accordingly.
 
-[The BIC are on GitHub](https://github.com/bic-boxtech/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+## Register for Access 
 
-## How to get started with Boxtech
+Access to Boxtech is free, you just need to register to use the service and verify your email account.
 
-To start using the Boxtech API you will need to request an API key, the key is free and the only condition of use is that you accept our terms and conditions.
+Registration can be found at XXXXXXXX URL XXXXXXXXX
 
-To request an API key please follow the signup process on [the website](https://www.bic-boxtech.org/sign-up/) and click the link that is sent to activate your account.
+## User Roles
 
-Now you can now request a token to start calling the API, the [Getting Started Guide]() will help you get up and running.
+You can use Boxtech as either: 
 
-Your now good to go and start using the Boxtech API. The swagger spec for the API is available on swaggerhub:
+* Consumer 
+* Uploader
 
-* [API specification](https://app.swaggerhub.com/apis/BIC-ORG/Boxtech/2.0)
+### Consumers 
 
-## Need Help?
+As a consumer you get full access to Boxtech to query the containers in the database, you only need the container number you are looking for and you can [search using the web interface](web/search-boxtech.md) for occasional use OR use the [API to integrate or script queries](api/api-documentation.md) to Boxtech from your own application.
 
-The API is really easy to query and use, but if you do have questions or would like to suggest some improvements we would really appreciate you taking the time to raise a [Github issue](https://github.com/bic-boxtech/BIC-BoxTech-API-Samples/issues/) and we will respond accordingly.
+You will need to register to gain access, and can start using the application immediately.
 
-BIC Boxtech is a non-profit platform for container technical details and BIC are dedicated to supporting digitalization and improving safety and security through the provision of open transparent data. We look forward to hearing from you
+### Uploaders
+
+To add your containers to boxtech and manage your fleet or apply alerts to containers you will need to have uploader rights.  To qualify for this you will need to register as an uploader in Boxtech and provide the BIC prefix that applies to you.
+
+This information is verified by BIC and once approved you will have the ability to start managing your container fleet and alerts.  
+
+You will gain immediate access to Boxtech but only have uploader rights until verification has taken place.
 
