@@ -4,7 +4,7 @@ title: Terminal Operations
 parent: Use Cases
 ---
 
-### Terminal Process
+# Terminal Process
 
 BoxTech allows shippers, carriers, terminals, depots, and other supply chain participants to instantly obtain technical information about containers, such as tare weight, size/type and maximum gross mass.
 
@@ -14,17 +14,17 @@ To obtain the max weight for a given container
 
 **Query the API**
 
-```
+```text
 https://app.bic-boxtech.org/api/v2.0/container/GLDU5334260
 ```
 
-*Note: You will need to provide the bearer in the header as described in the [guide]() with your token*
+_Note: You will need to provide the bearer in the header as described in the_ [_guide_](terminal.md) _with your token_
 
 **Examine the Results**
 
 Look for the `max_gross_mass_kg` in the json response, you can now compare this against the weight provided from the weighing equipment for the container of interest to ensure a safe operating weight.
 
-```
+```text
 {
        "uploaderaccountname": "TOUAX",
        "bic_code": "GLDU",
@@ -82,3 +82,4 @@ Look for the `max_gross_mass_kg` in the json response, you can now compare this 
        "door_opening_height_ft": null
    }
 ```
+
