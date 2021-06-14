@@ -12,4 +12,5 @@
 ## API
 
 * [API Documentation](api/api-documentation.md)
+* [Examples](api/examples.md)
 
