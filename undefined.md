@@ -14,7 +14,7 @@ To start using the Boxtech API you will need to request an API key, the key is f
 
 To request an API key please follow the signup process on [the website](https://www.bic-boxtech.org/sign-up/) and click the link that is sent to activate your account.
 
-Now you can now request a token to start calling the API, the [Getting Started Guide](manualtests/manualtests.md) will help you get up and running.
+Now you can now request a token to start calling the API, the [Getting Started Guide]() will help you get up and running.
 
 Your now good to go and start using the Boxtech API. The swagger spec for the API is available on swaggerhub:
 
