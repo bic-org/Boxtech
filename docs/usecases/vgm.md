@@ -14,17 +14,17 @@ To obtain the tare weight for a given containers
 
 **Query the API**
 
-```
+```text
 https://app.bic-boxtech.org/api/v2.0/container/GLDU5334260
 ```
 
-*Note: You will need to provide the bearer in the header as described in the [guide]() with your token*
+_Note: You will need to provide the bearer in the header as described in the_ [_guide_](vgm.md) _with your token_
 
 **Examine the Results**
 
 Look for the `tare_kg` in the json response, you can now use this value in your SOLAS VGM method 2 calculations.
 
-```
+```text
 {
        "uploaderaccountname": "TOUAX",
        "bic_code": "GLDU",
@@ -82,3 +82,4 @@ Look for the `tare_kg` in the json response, you can now use this value in your 
        "door_opening_height_ft": null
    }
 ```
+
