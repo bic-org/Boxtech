@@ -1,8 +1,20 @@
 # Boxtech Dataset
 
-Boxtech stores a number of data elements about a container, the details of which can be found below.  
+Boxtech stores a number of data elements about a container, the details of which can be found below.
 
-### Physical Characteristics 
+## BIC Code Holder and Current Operator
+
+There are two parties that are often required to be known for a container, and these are the definitions and how they are determined:
+
+### BIC Code Holder
+
+The owner of the BIC Prefix that is marked on the container, this company hold an account with BIC and are the registered code holder.  This could be for example a lessor, carrier or shipper with own containers.
+
+### Current Operator
+
+If the container is marked with a BIC prefix belonging to a lessor, they may not be the current operator of the container, as it will likely be 'on hire' to another company.  When an `uploader` provides their fleet to Boxtech, if they are not the BIC Code Holder they will become the current operator, when they off hire OR another company on hires and uploads their fleet they will be removed and the new operator added.  
+
+## Physical Characteristics 
 
 The Physical Characteristics are the details that are marked on the container as per ISO6346
 
@@ -22,7 +34,7 @@ The Physical Characteristics are the details that are marked on the container as
 
 `Cubic Capacity` is the volume that the container has capacity for internal storage.  Detailed in m3 and cuft. 
 
-### Dimensions 
+## Dimensions 
 
 Note that were the dimensions are not provided on upload for the external measurements they are provided under ISO6346 for the container type, where available.  Internal measurements are only provided by the uploader.
 
@@ -42,7 +54,7 @@ Note that were the dimensions are not provided on upload for the external measur
 
 `Door Opening Height` - 
 
-### One Door Off Operations 
+## One Door Off Operations 
 
 `Stacking` - 
 
@@ -50,7 +62,7 @@ Note that were the dimensions are not provided on upload for the external measur
 
 `End Wall Strength` - 
 
-### Manufacturer Data and Data Plates
+## Manufacturer Data and Data Plates
 
 `Manufacturer` - Name of the Manufacturer of the container
 
@@ -66,9 +78,9 @@ Note that were the dimensions are not provided on upload for the external measur
 
 `Timber Treatment Plate` - 
 
-### Conversions
+## Conversions
 
-#### Weights \(kgs/lbs\)
+### Weights \(kgs/lbs\)
 
 Where the weight of a container is provided in only 1 of the unit types, it will be calculated for the other using the following calculation.
 
@@ -76,7 +88,7 @@ Where the weight of a container is provided in only 1 of the unit types, it will
 
  `KGS * 2.222 = LBS`
 
-#### Volume \(m3, cuft\)
+### Volume \(m3, cuft\)
 
 Where the volume of a container is provided in only 1 of the unit types, it will be calculated for the other using the following calculation.
 

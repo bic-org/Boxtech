@@ -12,18 +12,6 @@ You can request access as an uploader on the registration form when first regist
 
 You will just need to provide a BIC Code Prefix which will be used to verify your relationship to the BIC Code Holder's account in Boxtech, this is checked with the contact that registered the BIC Code from your organisation, they will receive an email from the BIC which they can confirm your request by clicking the button within the email.
 
-## BIC Code Holder and Current Operator
-
-There are two parties that are often required to be known for a container, and these are the definitions and how they are determined:
-
-### BIC Code Holder
-
-The owner of the BIC Prefix that is marked on the container, this company hold an account with BIC and are the registered code holder.  This could be for example a lessor, carrier or shipper with own containers.
-
-### Current Operator
-
-If the container is marked with a BIC prefix belonging to a lessor, they may not be the current operator of the container, as it will likely be 'on hire' to another company.  When an `uploader` provides their fleet to Boxtech, if they are not the BIC Code Holder they will become the current operator, when they off hire OR another company on hires and uploads their fleet they will be removed and the new operator added.
-
 ## Action Types 
 
 Boxtech contains a 2 types of action when it comes to managing your container fleet:
