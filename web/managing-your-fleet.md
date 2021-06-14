@@ -47,7 +47,7 @@ The containers being uploaded are to be removed from your active fleet of contai
 
 If the container is on hire to you, performing this action will remove you from the Current Operator field, meaning the container is no longer operated within your fleet.
 
-If you own the BIC Code Prefix you will be noted as the **BIC Code Holder** for these containers and a fleet out would remove these containers from your fleet, to remove containers from your fleet you will need to provide the reason so they can be appropriately marked in Boxtech, the options to do so are  [sold](container-alerts.md#sold) or [scrapped](container-alerts.md#scrapped) meaning the container details remain available to industry but are marked as no longer within your fleet.  
+If you also own the BIC Code Prefix you will be noted as the **BIC Code Holder** for these containers, in this case the off hire process is used to manage the **lease back container** use case in which the containers are owned by a leasing company but marked with your BIC Code Prefix.  In this case you would be removed as the current operator of the container \(as it is no longer in operation of your fleet\) and an alert would be raised against the container showing that the container was a leaseback and is no longer under your fleet and thre container number is no longer valid.
 
 ## Use Cases
 
@@ -69,9 +69,17 @@ In this case you would simply add the containers to the template and upload usin
 
 ### 'Off Hire' Containers from my fleet
 
-In this case you would simply add the containers to the template and upload using the **fleet out** feature.  This will remove you from the Current Operator field in Boxtech.
+In this case you would simply add the containers to the template and upload using the **off hire** feature.  This will remove you from the Current Operator field in Boxtech.
 
-### Remove Containers from my fleet
+### 'Off Hire' Leaseback containers
+
+In this case use the **off hire** feature, this covers when the container is marked with your BIC Code but is returned to the lessor as although marked against your BIC Code it was on lease.  An alert will be raised to show this in Boxtech.
+
+### Remove Containers from Fleet
 
 You should use the sold or scrapped feature for this purpose, as you would know why and where the containers are leaving the fleet.  You can use the Fleet Out / Off Hire process if you are identifying containers in the same file that are being off hired or marked as sold or scrapped.
+
+If you do not know where the containers are you can mark them as[ lost or stolen](container-alerts.md#lost) using an alert.
+
+For leased containers use the off hire process
 
