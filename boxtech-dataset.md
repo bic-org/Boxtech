@@ -84,11 +84,15 @@ Note that were the dimensions are not provided on upload for the external measur
 
 Where the weight of a container is provided in only 1 of the unit types, it will be calculated for the other using the following calculation.
 
- `KGS * 2.222 = LBS`
+ `LBS / 2.20462 = KGS`
 
- `KGS * 2.222 = LBS`
+ `KGS * 2.20462 = LBS`
 
 ### Volume \(m3, cuft\)
 
 Where the volume of a container is provided in only 1 of the unit types, it will be calculated for the other using the following calculation.
+
+`CBM * 35.3146667 = CUFT`
+
+`CUFT / 35.3146667 = CBM`
 
