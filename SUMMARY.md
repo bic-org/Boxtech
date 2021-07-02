@@ -12,5 +12,5 @@
 ## API
 
 * [API Documentation](api/api-documentation.md)
-* [Examples](api/examples.md)
+* [API Use Case Examples](api/examples.md)
 

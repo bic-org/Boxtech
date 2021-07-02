@@ -1,4 +1,4 @@
-# Examples
+# API Use Case Examples
 
 ## SOLAS VGM
 
