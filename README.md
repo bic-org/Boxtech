@@ -10,7 +10,7 @@ For feature requests, support or other requests please raise a github issue at [
 
 Access to Boxtech is free, you just need to register to use the service and verify your email account.
 
-Registration can be found at XXXXXXXX URL XXXXXXXXX
+Registration can be found at [https://app.bic-boxtech.org/sign-up](https://app.bic-boxtech.org/sign-up) 
 
 ## User Roles
 
