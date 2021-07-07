@@ -4,11 +4,11 @@ Once you are logged into Boxtech as a `consumer` you willl have the facility to 
 
 You can only search for valid and complete container numbers in Boxtech, to do this enter your container number in the search box at the top of the Boxtech screen.
 
-![Search Screen in Boxtech](../.gitbook/assets/image%20%281%29.png)
+![Search Screen in Boxtech](../.gitbook/assets/image-1-2.png)
 
-### Search Results
+## Search Results
 
-Boxtech returns the data about a single container in its results, from here you can view the 
+Boxtech returns the data about a single container in its results, from here you can view the
 
 * Physical Characteristics 
 * Owner and Operator Details
@@ -16,9 +16,7 @@ Boxtech returns the data about a single container in its results, from here you 
 * One Door Off Operations 
 * Manufacturer Data and Data Plates
 
-Details of the data fields shown in Boxtech are defined in [Boxtech Dataset]()
+Details of the data fields shown in Boxtech are defined in [Boxtech Dataset](search-boxtech.md)
 
-![Boxtech Search Results](../.gitbook/assets/image.png)
-
-
+![Boxtech Search Results](https://github.com/bic-org/Boxtech/tree/5047d35298e744ca247f75bf398710a354fbb2c8/docs/.gitbook/assets/image.png)
 
