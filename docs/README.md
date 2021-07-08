@@ -12,24 +12,14 @@ Access to Boxtech is free, you just need to register to use the service and veri
 
 Registration can be found at [https://app.bic-boxtech.org/sign-up](https://app.bic-boxtech.org/sign-up)
 
-## User Roles
+## Documentation
 
-You can use Boxtech as either:
+Documentation for Boxtech can be found at https://docs.bic-boxtech.org 
 
-* Consumer 
-* Uploader
+## API Specifications 
 
-### Consumers
+Our API's are published on SwaggerHub https://app.swaggerhub.com/home?owner=BIC-ORG
 
-As a consumer you get full access to Boxtech to query the containers in the database, you only need the container number you are looking for and you can [search using the web interface](web/search-boxtech.md) for occasional use OR use the [API to integrate or script queries](api/api-documentation.md) to Boxtech from your own application.
+## Issues, Support or Feature Requests
 
-You will need to register to gain access, and can start using the application immediately.
-
-### Uploaders
-
-To add your containers to boxtech and manage your fleet or apply alerts to containers you will need to have uploader rights. To qualify for this you will need to register as an uploader in Boxtech and provide the BIC prefix that applies to you.
-
-This information is verified by BIC and once approved you will have the ability to start managing your container fleet and alerts.
-
-You will gain immediate access to Boxtech but only have uploader rights until verification has taken place.
-
+We are always interested to hear your ideas for Boxtech, and to support your journey to integrating Boxtech into your systems.  Please raise a github issue for us to manage these requests and we will be happy to assist. and hear from you.
