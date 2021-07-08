@@ -4,7 +4,7 @@ Once you are logged into Boxtech as a `consumer` you willl have the facility to 
 
 You can only search for valid and complete container numbers in Boxtech, to do this enter your container number in the search box at the top of the Boxtech screen.
 
-![Search Screen in Boxtech](../.gitbook/assets/image%20%281%29.png)
+![Search Screen in Boxtech](../.gitbook/assets/search.png)
 
 ### Search Results
 
@@ -18,7 +18,7 @@ Boxtech returns the data about a single container in its results, from here you 
 
 Details of the data fields shown in Boxtech are defined in [Boxtech Dataset]()
 
-![Boxtech Search Results](../.gitbook/assets/image.png)
+![Boxtech Search Results](../.gitbook/assets/results.png)
 
 
 
