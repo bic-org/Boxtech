@@ -50,4 +50,4 @@ Select the category of alert, and follow the onscreen instructions if uploading 
 
 You can also integrate Boxtech into your application and activate or deactivate your alerts using the API endpoints documented in the [Open API Specification ](../api/api-documentation.md)
 
-![Uploader Screen](../.gitbook/assets/container-uploader.png)
+![Uploader Screen](../.gitbook/assets/uploader.png)
