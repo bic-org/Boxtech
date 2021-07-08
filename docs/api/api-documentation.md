@@ -6,7 +6,7 @@ The Boxtech API is part of the BIC's digital services and you will need to follo
 
 ## Steps to Access
 
-1. Register for an Account at https://..
+1. Register for an Account at [https://app.bic-boxtech.org/sign-up](https://app.bic-boxtech.org/sign-up)
 2. Download the Postman Collection or Start Coding to Integrate
 
 ## Authentication

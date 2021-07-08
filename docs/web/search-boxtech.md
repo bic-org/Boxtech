@@ -16,7 +16,7 @@ Boxtech returns the data about a single container in its results, from here you 
 * One Door Off Operations
 * Manufacturer Data and Data Plates
 
-Details of the data fields shown in Boxtech are defined in [Boxtech Dataset](search-boxtech.md)
+Details of the data fields shown in Boxtech are defined in[ Boxtech Dataset](../boxtech-dataset.md)
 
 ![Boxtech Search Results](../.gitbook/assets/results.png)
 
