@@ -9,11 +9,11 @@ The Boxtech API is part of the BIC's digital services and you will need to follo
 1. Register for an Account at https://..
 2. Download the Postman Collection or Start Coding to Integrate
 
-## Authentication 
+## Authentication
 
 The value for Authorization header is: `Basic <credentials>`, where credentials is the Base64 encoding of username and password joined by a single colon `:` eg. `username:password`
 
- Example: `Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==`
+Example: `Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==`
 
 {% api-method method="post" host="https://boxtech.cif-consulting.co.uk" path="/oauth/token" %}
 {% api-method-summary %}
@@ -39,7 +39,7 @@ Base64 encoded username and password as described above.
 Once valid credentials are supplied, a valid access token is returned.
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
     "accessToken": "eyJraWQLCJjdbWF6b25hd3MNWGwd8ixowDovA",
     "accessTokenExpiresAt": "2021-07-06T12:18:34.164521+00:00",
@@ -55,7 +55,5 @@ Once valid credentials are supplied, a valid access token is returned.
 
 Open API documentation can be found at ...
 
-You can download the Postman collection to get started with Boxtech 
-
-
+You can download the Postman collection to get started with Boxtech
 

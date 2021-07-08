@@ -6,14 +6,14 @@ You can only search for valid and complete container numbers in Boxtech, to do t
 
 ![Search Screen in Boxtech](../.gitbook/assets/search.png)
 
-### Search Results
+## Search Results
 
-Boxtech returns the data about a single container in its results, from here you can view the 
+Boxtech returns the data about a single container in its results, from here you can view the
 
-* Physical Characteristics 
+* Physical Characteristics
 * Owner and Operator Details
 * Dimensions of the Container
-* One Door Off Operations 
+* One Door Off Operations
 * Manufacturer Data and Data Plates
 
 Details of the data fields shown in Boxtech are defined in [Boxtech Dataset]()
@@ -21,4 +21,4 @@ Details of the data fields shown in Boxtech are defined in [Boxtech Dataset]()
 ![Boxtech Search Results](../.gitbook/assets/results.png)
 
 
-
+![Boxtech Search Results](https://github.com/bic-org/Boxtech/tree/5047d35298e744ca247f75bf398710a354fbb2c8/docs/.gitbook/assets/image.png)

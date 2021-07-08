@@ -2,7 +2,7 @@
 
 ## SOLAS VGM
 
-BoxTech allows shippers, carriers, terminals, depots, and other supply chain participants to instantly obtain technical information about containers, such as tare weight, size/type and maximum gross mass.  BoxTech means a one-stop-shop to obtain container tare weights for use in Method 2 SOLAS VGM calculations.
+BoxTech allows shippers, carriers, terminals, depots, and other supply chain participants to instantly obtain technical information about containers, such as tare weight, size/type and maximum gross mass. BoxTech means a one-stop-shop to obtain container tare weights for use in Method 2 SOLAS VGM calculations.
 
 To obtain the tare weight for a given containers you would use the GET method below to retrieve the container detail and would look for the `tare_kg` in the response, you can now use this in your SOLAS VGM method 2 calculations
 
@@ -42,7 +42,7 @@ Container Number i.e. GLDU5334260
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
