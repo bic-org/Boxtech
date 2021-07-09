@@ -14,14 +14,17 @@ Registration can be found at [https://app.bic-boxtech.org/sign-up](https://app.b
 
 ## Documentation
 
-Documentation for Boxtech can be found at https://docs.bic-boxtech.org 
+Documentation for Boxtech can be found at [https://docs.bic-boxtech.org](https://docs.bic-boxtech.org)
 
-## API Specifications 
+## API Specifications
 
-Our API's are published on SwaggerHub https://app.swaggerhub.com/home?owner=BIC-ORG
+Our API's are published on SwaggerHub [https://app.swaggerhub.com/home?owner=BIC-ORG](https://app.swaggerhub.com/home?owner=BIC-ORG)
 
-Download the Postman Collection from https://documenter.getpostman.com/view/5836352/Tzm6mGKH
+Download the Postman Collection from [https://documenter.getpostman.com/view/5836352/Tzm6mGKH](https://documenter.getpostman.com/view/5836352/Tzm6mGKH)
 
 ## Issues, Support or Feature Requests
 
-We are always interested to hear your ideas for Boxtech, and to support your journey to integrating Boxtech into your systems.  Please raise a github issue for us to manage these requests and we will be happy to assist. and hear from you.
+We are always interested to hear your ideas for Boxtech, and to support your journey to integrating Boxtech into your systems. Please raise a github issue for us to manage these requests and we will be happy to assist. and hear from you.
+
+[https://github.com/bic-org/Boxtech](https://github.com/bic-org/Boxtech)
+
