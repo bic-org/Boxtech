@@ -53,7 +53,7 @@ Once valid credentials are supplied, a valid access token is returned.
 
 ## Open API Documentation and Postman Collection
 
-Open API documentation can be found at ...
+Open API documentation can be found at [https://documenter.getpostman.com/view/Tzm9huBX?version=latest](https://documenter.getpostman.com/view/Tzm9huBX?version=latest)
 
 You can download the Postman collection to get started with Boxtech
 
