@@ -4,9 +4,13 @@ The most beneficial way to use Boxtech is by integrating it into your workflow a
 
 The Boxtech API is part of the BIC's digital services and you will need to follow the steps below to access this API
 
-## Steps to Access
+## Steps to Access Boxtech
 
-1. Register for an Account at [https://app.bic-boxtech.org/sign-up](https://app.bic-boxtech.org/sign-up)
+1. Register for an Account by visiting one of the links below:
+
+* Live Environment: [https://app.bic-boxtech.org/sign-up](https://app.bic-boxtech.org/sign-up)
+* UAT Environment:  [https://uat.bic-boxtech.org/sign-up](https://app.bic-boxtech.org/sign-up)
+
 2. Download the Postman Collection or Start Coding to Integrate
 
 ## Authentication
