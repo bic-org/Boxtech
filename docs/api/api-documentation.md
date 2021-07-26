@@ -15,7 +15,7 @@ The value for Authorization header is: `Basic <credentials>`, where credentials 
 
 Example: `Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==`
 
-{% api-method method="post" host="https://boxtech.cif-consulting.co.uk" path="/oauth/token" %}
+{% api-method method="post" host="https://uat.bic-boxtech.org" path="/oauth/token" %}
 {% api-method-summary %}
 Retrieve Token
 {% endapi-method-summary %}
