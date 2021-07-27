@@ -8,6 +8,7 @@
 * [Search Boxtech](web/search-boxtech.md)
 * [Managing your Fleet](web/managing-your-fleet.md)
 * [Container Alerts](web/container-alerts.md)
+* [Change Password](web/change-password.md)
 
 ## API
 
