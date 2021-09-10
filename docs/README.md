@@ -18,7 +18,7 @@ Documentation for Boxtech can be found at [https://docs.bic-boxtech.org](https:/
 
 ## API Specifications
 
-Our API's are published on SwaggerHub [https://app.swaggerhub.com/home?owner=BIC-ORG](https://app.swaggerhub.com/home?owner=BIC-ORG)
+Our API's are published on SwaggerHub [https://app.swaggerhub.com/apis/BIC-ORG](https://app.swaggerhub.com/apis/BIC-ORG)
 
 Download the Postman Collection from [https://documenter.getpostman.com/view/Tzm9huBX](https://documenter.getpostman.com/view/Tzm9huBX)
 
