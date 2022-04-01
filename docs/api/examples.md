@@ -18,31 +18,17 @@ To obtain the tare weight for a given containers you would use the GET method be
 
 ## Query the API
 
-{% api-method method="get" host="https://app.bic-boxtech.org/api" path="/v2.0/container/:container" %}
-{% api-method-summary %}
-GET Container Detail
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://app.bic-boxtech.org/api" path="/v2.0/container/:container" method="get" summary="GET Container Detail" %}
+{% swagger-description %}
 Find the technical Details for a given container number
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="container" type="string" required=true %}
+{% swagger-parameter name="container" type="string" required="true" in="path" %}
 Container Number i.e. GLDU5334260
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```text
+{% swagger-response status="200" description="" %}
+```
 [{
        "uploaderaccountname": "TOUAX",
        "bic_code": "GLDU",
@@ -100,16 +86,14 @@ Container Number i.e. GLDU5334260
        "door_opening_height_ft": null
    }]
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
 ### Retrieve the Tare Weight from Response
 
 Look for the \`tare\_kg\` in the json response, you can now use this value in your SOLAS VGM method 2 calculations.
 
-```text
+```
 [{
        "uploaderaccountname": "TOUAX",
        "bic_code": "GLDU",
@@ -164,7 +148,10 @@ Look for the \`tare\_kg\` in the json response, you can now use this value in yo
        "external_height_ft": null,
        "internal_height_ft": null,
        "door_opening_width_ft": null,
-       "door_opening_height_ft": null
+       "door_opening_height_ft": null,
+       "capacity_litres": "31200",
+       "imdg_code": "T1",
+       "adr_rid_code": "L10CH",
+       "baffles": false
    }]
 ```
-
