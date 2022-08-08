@@ -1,0 +1,2 @@
+container_number,detail_st,tare_kg,max_payload_kg,max_gross_mass_kg,cubic_capacity_cbm,stacking_kg,racking_kg,racking_n,internal_length_mm,internal_width_mm,internal_height_mm,door_opening_width_mm,door_opening_height_mm,smart_container,smart_container_certification,smart_container_activated,capacity_litres,imdg_code,adr_rid_code,baffles
+ABCU1234567,45G1,4880,31120,36000,35,213000,430000,150,12057,2444,2387,2400,2280,YES,UNKNOWN,YES,31000,T22,LGAV,YES
