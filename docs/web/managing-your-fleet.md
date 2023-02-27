@@ -27,7 +27,7 @@ The containers being uploaded are currently in your active fleet of containers, 
 
 If you own the BIC Code Prefix you will be noted as the **BIC Code Holder** for these containers, as well as the **Current Operator**. You will also be able to update the container details as the official owner.
 
-If you are leasing these containers and do not own the BIC prefix you will be identified as the **Current Operator** only, the **BIC Code Holder** will be automatically identified.
+If you are leasing these containers and do not own the BIC prefix you will be identified as the **Current Operator** only, the **BIC Code Holder** will be automatically identified.  In this case the technicala details of the container cannot be updated, only the BIC Code Holder has the rights to update their fleet detail.
 
 ### Fleet Out / Off Hire
 
@@ -35,7 +35,7 @@ The containers being uploaded are to be removed from your active fleet of contai
 
 If the container is on hire to you, performing this action will remove you from the Current Operator field, meaning the container is no longer operated within your fleet.
 
-If you also own the BIC Code Prefix you will be noted as the **BIC Code Holder** for these containers, in this case the off hire process is used to manage the **lease back container** use case in which the containers are owned by a leasing company but marked with your BIC Code Prefix. In this case you would be removed as the current operator of the container \(as it is no longer in operation of your fleet\) and an alert would be raised against the container showing that the container was a leaseback and is no longer under your fleet and thre container number is no longer valid.
+If you also own the BIC Code Prefix you will be noted as the **BIC Code Holder** for these containers, in this case the off hire process is used to manage the **lease back container** use case in which the containers are owned by a leasing company but marked with your BIC Code Prefix. In this case you would be removed as the current operator of the container (as it is no longer in operation of your fleet) and an alert would be raised against the container showing that the container was a leaseback and is no longer under your fleet and thre container number is no longer valid.
 
 ## Use Cases
 
@@ -47,7 +47,7 @@ In this case you would simply add the containers to the template and upload usin
 
 ### Update Container details
 
-In this case you would fill in all container details known to you \(more complete the better\) and upload using the **fleet in** feature. If the container exists and you are the BIC Code Holder the container details will be updated according to your request.
+In this case you would fill in all container details known to you (more complete the better) and upload using the **fleet in** feature. If the container exists and you are the BIC Code Holder the container details will be updated according to your request.
 
 If the containers are new to Boxtech they will be added using the details provided.
 
@@ -70,4 +70,3 @@ You should use the sold or scrapped feature for this purpose, as you would know 
 If you do not know where the containers are you can mark them as[ lost or stolen](container-alerts.md#lost) using an alert.
 
 For leased containers use the off hire process
-
