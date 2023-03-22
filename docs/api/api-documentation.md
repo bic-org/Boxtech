@@ -9,9 +9,9 @@ The Boxtech API is part of the BIC's digital services and you will need to follo
 1. Register for an Account by visiting one of the links below:
 
 * Live Environment: [https://app.bic-boxtech.org/sign-up](https://app.bic-boxtech.org/sign-up)
-* UAT Environment:  [https://uat.bic-boxtech.org/sign-up](https://app.bic-boxtech.org/sign-up)
+* UAT Environment: [https://uat.bic-boxtech.org/sign-up](https://app.bic-boxtech.org/sign-up)
 
-2. Download the Postman Collection or Start Coding to Integrate
+1. Download the Postman Collection or Start Coding to Integrate
 
 ## Authentication
 
@@ -19,45 +19,28 @@ The value for Authorization header is: `Basic <credentials>`, where credentials 
 
 Example: `Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==`
 
-{% api-method method="post" host="https://uat.bic-boxtech.org" path="/oauth/token" %}
-{% api-method-summary %}
-Retrieve Token
-{% endapi-method-summary %}
+{% swagger baseUrl="https://uat.bic-boxtech.org" path="/oauth/token" method="post" summary="Retrieve Token" %}
+{% swagger-description %}
 
-{% api-method-description %}
+{% endswagger-description %}
 
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=true %}
+{% swagger-parameter name="Authorization" type="string" required="true" in="header" %}
 Base64 encoded username and password as described above.
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Once valid credentials are supplied, a valid access token is returned.
-{% endapi-method-response-example-description %}
-
-```text
+{% swagger-response status="200" description="" %}
+```
 {
     "accessToken": "eyJraWQLCJjdbWF6b25hd3MNWGwd8ixowDovA",
     "accessTokenExpiresAt": "2021-07-06T12:18:34.164521+00:00",
     "access_token": "eyJraWQiOiJPa2DovA"
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
 ## Open API Documentation and Postman Collection
 
 Open API documentation can be found at...
 
 You can download the Postman collection to get started with Boxtech at [https://documenter.getpostman.com/view/Tzm9huBX?version=latest](https://documenter.getpostman.com/view/Tzm9huBX?version=latest)
-
