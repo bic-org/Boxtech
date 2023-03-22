@@ -5,6 +5,7 @@
 
 ## Web
 
+* [Smart Containers](web/smart-containers.md)
 * [Search Boxtech](web/search-boxtech.md)
 * [Managing your Fleet](web/managing-your-fleet.md)
 * [Container Alerts](web/container-alerts.md)
@@ -14,4 +15,3 @@
 
 * [API Documentation](api/api-documentation.md)
 * [API Use Case Examples](api/examples.md)
-
