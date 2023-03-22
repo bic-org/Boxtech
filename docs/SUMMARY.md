@@ -5,9 +5,9 @@
 
 ## Web
 
-* [Smart Containers](web/smart-containers.md)
 * [Search Boxtech](web/search-boxtech.md)
 * [Managing your Fleet](web/managing-your-fleet.md)
+* [Smart Containers](web/smart-containers.md)
 * [Container Alerts](web/container-alerts.md)
 * [Change Password](web/change-password.md)
 
