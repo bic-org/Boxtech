@@ -21,30 +21,28 @@ You can use Boxtech as either:&#x20;
 
 #### Consumers&#x20;
 
-As a consumer you get full access to Boxtech to query the containers in the database, you only need the container number you are looking for and you can [search using the web interface](web/search-boxtech.md) for occasional use OR use the [API to integrate](api/api-documentation.md) or script queries to Boxtech from your own application.
+As a consumer you get full access to Boxtech to query the containers in the database, you only need the container number you are looking for and you can [search using the web interface](user-guide/search-boxtech.md) for occasional use OR use the [API to integrate](api/api-documentation.md) or script queries to Boxtech from your own application.
 
 You will need to register to gain access, and can start using the application immediately.
 
 #### Uploaders
 
-To [add your containers to boxtech](web/managing-your-fleet.md) and manage your fleet or [apply container alerts](web/container-alerts.md) to containers you will need to have uploader rights.  To qualify for this you will need to register as an uploader in Boxtech and provide the BIC prefix that applies to you.
+To [add your containers to boxtech](user-guide/managing-your-fleet.md) and manage your fleet or [apply container alerts](user-guide/container-alerts.md) to containers you will need to have uploader rights.  To qualify for this you will need to register as an uploader in Boxtech and provide the BIC prefix that applies to you.
 
 This information is verified by BIC and once approved you will have the ability to start managing your container fleet and alerts. &#x20;
 
 You will gain immediate access to Boxtech as a `consumer` but only have `uploader` rights until verification has taken place by the BIC team.
 
-## Documentation
-
-Documentation for Boxtech can be found at [https://docs.bic-boxtech.org](https://docs.bic-boxtech.org)
+Follow the [Getting Started](maintaining-your-fleet/getting-started.md) guide to uploading your fleet
 
 ## API Specifications
 
-Our API's are published on SwaggerHub [https://app.swaggerhub.com/apis/BIC-ORG](https://app.swaggerhub.com/apis/BIC-ORG)
+All Our API's are published on SwaggerHub [https://app.swaggerhub.com/apis/BIC-ORG](https://app.swaggerhub.com/apis/BIC-ORG)
 
 Download the Postman Collection from [https://documenter.getpostman.com/view/Tzm9huBX](https://documenter.getpostman.com/view/Tzm9huBX)
 
 ## Issues, Support or Feature Requests
 
-We are always interested to hear your ideas for Boxtech, and to support your journey to integrating Boxtech into your systems. Please raise a github issue for us to manage these requests and we will be happy to assist. and hear from you.
+We are always interested to hear your ideas for Boxtech, and to support your journey to integrating Boxtech into your systems. Please raise a **Github issue** for us to manage these requests and we will be happy to assist. and hear from you.
 
 [https://github.com/bic-org/Boxtech](https://github.com/bic-org/Boxtech)

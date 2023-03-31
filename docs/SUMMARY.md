@@ -1,15 +1,14 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Boxtech Dataset](boxtech-dataset.md)
 
-## Web
+## User Guide
 
-* [Search Boxtech](web/search-boxtech.md)
-* [Managing your Fleet](web/managing-your-fleet.md)
-* [Smart Containers](web/smart-containers.md)
-* [Container Alerts](web/container-alerts.md)
-* [Change Password](web/change-password.md)
+* [Search Boxtech](user-guide/search-boxtech.md)
+* [Managing your Fleet](user-guide/managing-your-fleet.md)
+* [Smart Containers](user-guide/smart-containers.md)
+* [Container Alerts](user-guide/container-alerts.md)
+* [Change Password](user-guide/change-password.md)
 
 ## API
 
@@ -20,3 +19,4 @@
 
 * [Getting Started](maintaining-your-fleet/getting-started.md)
 * [Automating the Updates](maintaining-your-fleet/automating-the-updates.md)
+* [Boxtech Dataset](maintaining-your-fleet/boxtech-dataset.md)
