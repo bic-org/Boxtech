@@ -16,7 +16,7 @@ If your system is event driven and you want to add hooks into those events to up
 >
 > For each container sold in my system send a SOLD alert to Boxtech
 
-This approach will mean implementing the Boxtech API into event messages from your system, enabling it to send messages to Boxtech when a system 'event' happens.  A great way to be fully integrated with Boxtech, it requires a little more in terms of IT resource and planning, your IT department will want to look at the API Specification and it's useful to setup a call with the BIC team to familiarise you with the API and give you test platform access.
+This approach will mean implementing the Boxtech API into event messages from your system, enabling it to send messages to Boxtech when a system 'event' happens.  A great way to be fully integrated with Boxtech, it requires a little more in terms of IT resource and planning, your IT department will want to look at the [API Specification](https://app.swaggerhub.com/apis/BIC-ORG/Boxtech/2.0.2) and it's useful to setup a call with the BIC team to familiarise you with the API and give you test platform access.
 
 ### Requesting SFTP or API Access
 
