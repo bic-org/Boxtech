@@ -15,3 +15,7 @@
 
 * [API Documentation](api/api-documentation.md)
 * [API Use Case Examples](api/examples.md)
+
+## Maintaining Your Fleet
+
+* [Getting Started](maintaining-your-fleet/getting-started.md)
