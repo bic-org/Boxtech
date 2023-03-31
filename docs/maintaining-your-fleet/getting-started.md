@@ -47,5 +47,7 @@ Following your upload you can expect to recieve an email to confirm your upload 
 
 Now you are familiar with the process you should take an action to upload your entire container fleet to Boxtech using the above process.
 
-You can also look to expand your dataset with inforamtion that you have available from your process&#x20;
+You can also look to expand your dataset with information that you have available from your process&#x20;
+
+Next you should think about [automating your updates](automating-the-updates.md)
 

@@ -19,3 +19,4 @@
 ## Maintaining Your Fleet
 
 * [Getting Started](maintaining-your-fleet/getting-started.md)
+* [Automating the Updates](maintaining-your-fleet/automating-the-updates.md)
