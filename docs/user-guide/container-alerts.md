@@ -20,7 +20,7 @@ The container has been sold by the BIC Code Holder and is no longer part of thei
 Boxtech will continue to show the container details for the container, but in all cases the alert type and text will be provided.
 
 {% hint style="info" %}
-It is possible to make a declaration of sale for containers where you are not the BIC Code Holder for the container. The process is the same as Sold, the container will be shown with an alert to indicate you have made a 'public record of sale', this date of this alert will also be timestamped by Boxtech and viewable by anyone searching for the container.
+It is possible to make a declaration of sale for containers where you are not the BIC Code Holder for the container. The process is the same as Sold, the container will be shown with an alert to indicate you have made a '**public record of sale**', this date of this alert will also be timestamped by Boxtech and viewable by anyone searching for the container.
 {% endhint %}
 
 ### Scrapped
@@ -31,11 +31,11 @@ Boxtech will continue to show the container details for the container, but in al
 
 ### Lost
 
-The container is flagged as lost by the BIC Code Holder, meaning that whilst it is still in their fleet the whereabouts of the container are currently unknown, anyone finding this container should contact the BIC Code Holder.
+The container is flagged as lost by the BIC Code Holder, meaning that whilst it is still in their fleet the whereabouts of the container are currently unknown and have been for a period of time, their internal criteria for identifying containers as lost is met, anyone finding this container should contact the BIC Code Holder.
 
 ### Stolen
 
-The container is flagged as stolen by the BIC Code Holder, meaning that whilst it is still in their fleet the whereabouts of the container are currently unknown, the theft of the container has been reported to authorities and a police report filed. Anyone finding this container should contact the BIC Code Holder and local Police.
+The container is flagged as stolen by the BIC Code Holder, meaning that whilst it is still in their fleet the whereabouts of the container are currently unknown, the theft of the container has been reported to authorities and a police report filed. Anyone finding this container should contact the BIC Code Holder.
 
 ## Activating or Deactivating Alerts in Boxtech
 
@@ -48,7 +48,6 @@ Once logged in you have 2 options:
 
 Select the category of alert, and follow the onscreen instructions if uploading your alert template in csv format. You will specify in the upload if you wish to activate or deactivate the alert.
 
-You can also integrate Boxtech into your application and activate or deactivate your alerts using the API endpoints documented in the [Open API Specification ](../api/api-documentation.md)
+You can also integrate Boxtech into your application and activate or deactivate your alerts using the API endpoints documented in the [Open API Specification](../api/api-documentation.md)
 
 ![Uploader Screen](../.gitbook/assets/uploader.png)
-
