@@ -14,6 +14,7 @@
 
 * [API Documentation](api/api-documentation.md)
 * [API Use Case Examples](api/examples.md)
+* [Limits and Quotas](api/limits-and-quotas.md)
 
 ## Maintaining Your Fleet
 

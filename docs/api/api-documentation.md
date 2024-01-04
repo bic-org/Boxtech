@@ -41,6 +41,6 @@ Base64 encoded username and password as described above.
 
 ## Open API Documentation and Postman Collection
 
-Open API documentation can be found at...
+Open API documentation can be found at [https://app.swaggerhub.com/apis/BIC-ORG/Boxtech/](https://app.swaggerhub.com/apis/BIC-ORG/Boxtech/)
 
 You can download the Postman collection to get started with Boxtech at [https://documenter.getpostman.com/view/Tzm9huBX?version=latest](https://documenter.getpostman.com/view/Tzm9huBX?version=latest)
