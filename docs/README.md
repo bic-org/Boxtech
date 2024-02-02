@@ -33,6 +33,12 @@ This information is verified by BIC and once approved you will have the ability 
 
 You will gain immediate access to Boxtech as a `consumer` but only have `uploader` rights until verification has taken place by the BIC team.
 
+When registering for Boxtech provide one of your BIC codes and we will verify your account as part of your application to become an uploader.
+
+If you are already registered as a consumer then, once logged into Boxtech you can request access by clicking the button below and providing a BIC Code.
+
+<figure><img src=".gitbook/assets/Screenshot 2024-02-02 at 08.42.52.png" alt=""><figcaption></figcaption></figure>
+
 Follow the [Getting Started](maintaining-your-fleet/getting-started.md) guide to uploading your fleet
 
 ## API Specifications
