@@ -2,6 +2,8 @@
 
 Boxtech provides container technical detail for the global container fleet, you can see what data is available in our dataset, we would recommend that you use the API for integrating to your application as well as the user interface for less frequent lookups.
 
+The documentation is available at [https://docs.bic-boxtech.org](https://docs.bic-boxtech.org)
+
 Full details on Boxtech and the BIC can be found at [https://www.bic-boxtech.org](https://www.bic-boxtech.org)
 
 For feature requests, support or other requests please raise a github issue at [https://github.com/bic-org/Boxtech](https://github.com/bic-org/Boxtech) and we will reply accordingly.
