@@ -9,6 +9,7 @@
 * [Smart Containers](user-guide/smart-containers.md)
 * [Container Alerts](user-guide/container-alerts.md)
 * [Change Password](user-guide/change-password.md)
+* [Upload History](user-guide/upload-history.md)
 
 ## API
 
