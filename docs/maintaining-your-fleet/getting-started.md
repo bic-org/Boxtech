@@ -2,7 +2,13 @@
 
 Uploading your first container fleet file to Boxtech is a simple process, this guide outlines how to make the first steps using minimum information to become familiar with the process and then moving towards more detailed information and automating the upload from your system if you so choose.
 
-This guide assumes that you have already [registered for Boxtech](https://app.bic-boxtech.org/sign-up), and have been approved as an uploader by BIC.
+This guide assumes that you have already [registered for Boxtech](https://app.bic-boxtech.org/sign-up), and have been approved as an uploader by BIC.  You can watch the video to follow the steps or read below the guide.
+
+
+
+{% embed url="https://www.youtube.com/watch?v=coITdDxNq0A" %}
+Upload your fleet video guide
+{% endembed %}
 
 ### Prepare the Upload File
 
@@ -43,7 +49,11 @@ Following your upload you can expect to recieve an email to confirm your upload 
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-03-30 at 09.39.58.png" alt=""><figcaption></figcaption></figure>
 
+If you receive any failed containers in the email we suggest watching the 'handling exceptions effectivly' video
 
+
+
+{% embed url="https://www.youtube.com/watch?v=RySwBo7Qh8M" %}
 
 Now you are familiar with the process you should take an action to upload your entire container fleet to Boxtech using the above process.
 
